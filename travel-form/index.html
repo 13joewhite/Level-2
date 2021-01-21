@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 style="background-color: cornflowerblue; color: darkgreen;">---Joseph $ Ashlee Airlines!---</h1>
+    <h2 style="color: cornflowerblue; background-color: darkgreen;">Welcome! Please fill out the form below to obtain your ticket.</h2>
+    <form id="airline-form" name="myForm">
+        <input onchange="" type="text" name="firstName" placeholder="First Name">
+        <br>
+        <input type="text" name="lastName" placeholder="Last Name">
+        <br>
+        <input type="number" name="age" placeholder="Age">
+        <br>
+        <input type="radio" name="gender" value="Male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" name="gender" value="Female">
+        <label for="female">Female</label>
+        <br>
+        <label for="">Desired destination:</label>        
+        <select name="desiredDestination">
+            <option value="Hawaii">Hawaii</option>
+            <option value="Rome">Rome</option>
+            <option value="Germany">Germany</option>
+        </select>
+        <br>
+        <label for="foodRestrictions">Dietary Restrictions. Select all that apply:</label>
+        <br>
+        <input  class="dietaryRestriction" type="checkbox" name="Restrictions" value="Vegitarian">
+        <label for="vegitarian">Vegitarian</label>
+        <br>
+        <input  class="dietaryRestriction" type="checkbox" name="Restrictions" value="Kosher">
+        <label for="kosher">Kosher</label>
+        <br>
+        <input  class="dietaryRestriction" type="checkbox" name="Restrictions" value="Lactos Intolerant">
+        <label for="lactos">Lactos Intolerant</label>
+        <br>
+        <input  class="none" type="checkbox" name="Restrictions" value="None of the above">
+        <label for="NA">None of the above</label>
+        <br>
+        <button>Submit</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

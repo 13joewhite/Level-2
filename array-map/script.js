@@ -112,9 +112,6 @@ const arr6 = [
 ]
 
 
-const nameH1AgeH2 = arr6.map(function(arr6) {
-    return `<h1>${arr6.name}</h1><h2>${arr6.age}</h2>`
-})
-
+x
 console.log(nameH1AgeH2)
 

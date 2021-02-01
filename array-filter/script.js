@@ -52,7 +52,7 @@ console.log(allowedIn)
 
 //Problem 5
 const people = [
-    { name: "Angelina Jolie", age: 80 },
+    { name: "Angelina Jolie", age: 80, weight: 120},
     { name: "Eric Jones", age: 2 },
     { name: "Paris Hilton", age: 5 },
     { name: "Kayne West", age: 18 },

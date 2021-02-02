@@ -1,0 +1,104 @@
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: lightseagreen;
+    border: 2.5px solid grey;
+    transition: background-color 500ms ease-in-out;
+    transition: border 1s linear;
+}
+
+#box1:hover {
+    background-color: orange;
+    border: 10px solid palevioletred;
+}
+
+#box2 {
+    width: 200px;
+    height: 200px;
+    background-color: lightseagreen;
+    border: 2.5px solid grey;
+    transition: background-color 500ms ease-in-out;
+    transition: border 1s ease-in;
+    transition: border-radius 1s ease-in-out;
+}
+
+#box2:hover {
+    background-color: purple;
+    border: 30px solid red;
+    border-radius: 20% 20% 20% 20%;
+}
+
+#box3 {
+    width: 200px;
+    height: 200px;
+    background-color: lightseagreen;
+    border: 2.5px solid grey;
+    transition: background-color 500ms ease-in-out;
+    transition: border 1s ease-in-out;
+    transition: border-radius 1s ease-in-out;
+}
+
+#box3:hover {
+    background-color: rgba(0, 128, 43, 0.671);
+    border: 30px solid rgba(0, 140, 255, 0.514);
+    border-radius: 250% 250% 20% 200%;
+}
+
+#box4 {
+    width: 200px;
+    height: 200px;
+    background-color: lightseagreen;
+    border: 2.5px solid grey;
+    transition: background-color 500ms ease-in-out;
+    transition: border 1s ease-in;
+    transition: border-radius 5s ease-in-out;
+    transition: width 1s ease-in-out;
+}
+
+#box4:hover {
+    width: 55%;
+    background-color: rgb(192, 211, 27);
+    border: 30px solid rgb(200, 82, 221);
+    border-radius: 20% 300% 20% 20%;
+}
+
+#box5 {
+    width: 200px;
+    height: 200px;
+    background-color: lightseagreen;
+    border: 2.5px solid grey;
+    transition: background-color 500ms ease-in-out;
+    transition: border 1s ease-in;
+    transition: border-radius 1s ease-in-out;
+}
+
+#box5:hover {
+    background-color: rgb(0, 0, 0);
+    border: 30px solid rgb(255, 174, 0);
+    border-radius: 20% 20% 20%;
+}
+
+#box6 {
+    width: 200px;
+    height: 200px;
+    background-color: lightseagreen;
+    border: 2.5px solid grey;
+    transition: background-color 500ms ease-in-out;
+    transition: border 1s ease-in;
+    transition: height 1s ease-in-out;
+    transition: width 1s ease-in-out;
+}
+
+
+#box6:hover {
+    background-color: gold;
+    border: 100px solid black;
+    height: 600px;
+    width: 75px;
+}
+
+
+
+
+
+

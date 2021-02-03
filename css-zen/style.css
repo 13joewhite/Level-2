@@ -1,0 +1,56 @@
+#title {
+    position: relative;
+    width: 65%;
+    height: 250px;
+    display: block; /* fix for opera and ff */
+}
+
+#logo {
+    position: absolute;
+    top: 70px;
+    left: 10%;
+    height: 110px;
+    width: 110px;
+}
+
+#mainTitle {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.931);
+    top: 46px;
+    left: 17%;
+}
+
+#beauty {
+    position: absolute;
+    font-style: italic;
+    color: rgba(211, 211, 211, 0.726);
+    top: 115px;
+    left: 17%;
+}
+
+#topRight {
+    position: relative;
+    bottom: 250px;
+    left: 65%;
+    width: 35%;
+    height: 250px;
+    display: block;
+}
+
+#viewDesign {
+    position: absolute;
+    bottom: 840px;
+    left: 70%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    padding: 20px 0;
+    color: rgba(255, 255, 255, 0.733);
+    background-color: rgba(255, 255, 255, 0.15);
+    height: 20px;
+    width: 400px;
+}

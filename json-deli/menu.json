@@ -1,0 +1,58 @@
+{
+    "appetizers": [
+        {
+            "dish": "Cucumber Rounds",
+            "ingredients": ["2 cucumbers", "1 cup feta cheese", "2 tomatoes chopped"],
+            "description": "We eat with our eyes, and turning cucumber slices into cups immediately makes them look more appealing without much extra effort. “They have the crunch and size of crackers but provide added anti-inflammatory benefits and fiber,” Gowin Carlucci says."
+        },
+        {
+            "dish": "Stuffed Dates",
+            "ingredients": ["20 pitted dates", "½ cup chopped walnuts", "½ cup chopped pistachios"],
+            "description": "These bites may be small, but they pack a pretty impressive nutritional punch. Calcium-rich dates serve as the vehicle for heart-healthy nuts. Walnuts and pistachios are suggested here for the filling, but Gowin-Carlucci says almonds work just as well."
+        }
+    ],
+    "coldSandwich": [
+        {
+            "dish": "Chicken Waldorf Sandwiches",
+            "ingredients": ["Chicken", "Tart apples", "Mayonnaise"],
+            "description": "This cold sandwhich is full of flavor, texture, and color. You'll love the combination of chicken combined with tart apples, crunchy celery and walnuts, and sweet dried cranberries in a tangy, homemade mayonnaise-mustard dressing."
+        }, 
+        {
+            "dish": "Salami, Mozzarella, and Roasted Red Pepper Sandwich",
+            "ingredients": ["Mozzarella", "Zesty salami", "Olive Oil"],
+            "description": "This scrumptious Italian sandwich is made with fresh mozzarella, zesty salami, sweet roasted red peppers, vibrant basil leaves, and rich, buttery olive oil."
+        }
+    ],
+    "hotSandwich": [
+        {
+            "dish": "Tuna Melt with Homemade Pickles",
+            "ingredients": ["Tuna", "Celery", "Mayonnaise", "Pickles"],
+            "description": "In search of a classic tuna melt? This one is the best around. We make our own pickles to top this delicious tuna melt."
+        }, 
+        {
+            "dish": "The BA Patty Melt",
+            "ingredients": ["Caramelized Onions", "Ground Beef", "Sharp Cheddar"],
+            "description": "You may ask yourself, Does this sandwich really need mayonnaise? The answer is yes. A swipe of mayo, not butter, on the bread encourages that gorgeous exterior."
+        }
+    ],
+    "desserts": [
+        {
+            "dish": "Homemade Vanilla Ice Cream",
+            "ingredients": ["Vanilla", "Milk", "Secrets"],
+            "description": "We don’t want to brag, but as far as vanilla ice cream goes, this one is the best."
+        }, 
+        {
+            "dish": "Creamy Caramel Flas",
+            "ingredients": ["Caramel", "Sugar", "Eggs"],
+            "description": "A small slice of this impressively rich, creamy, caramel flan dessert goes a long way. What a delightful finish for a special meal or holiday celebration."
+        }
+    ],
+    "drinks": [
+        {
+            "optionOne": "Coke"
+        }, 
+        {
+            "optionTwo": "Water"
+        }
+    ]
+}

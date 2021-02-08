@@ -28,95 +28,144 @@ console.log(combineFruit(['apple', 'pear'], ['cake', 'pie'], ['carrot'])) //Thes
 
 
 
-//Problem 3 1234567890
+//Problem 3 
 const vacation = {  
     location: "Burly Idaho",
     duration: "2 weeks"
   };
   
-  function parseSentence(){
+  function parseSentence(obj){
+    let {location, duration} = obj
     return `We're going to have a good time in ${location} for ${duration}`
   }
+  console.log(parseSentence(vacation))
   
 
 
 
 
+let testItems = [{name: 'hello'}, 'cabbage', 'greman']
+let [obj1, str1, str2] = testItems
 
-// //Problem 4 1234567890
-// function returnFirst(items){
-//     const firstItem = items[0]; /*change this line to be es6*/
-//     return firstItem
+
+//Problem 4 1234567890
+function returnFirst([a,b,c]){
+    console.log(a,b,c)
+    return a
+}
+
+console.log(returnFirst(['potato', 'cabbage', 'german']))
+// const food = {
+//     name: 'Artichoke',
+//     price: 4,
+//     color: 'Green'
 // }
 
+// let {name, price, color} = food
 
 
 
 
-// //Problem 5 1234567890
-// const favoriteActivities = ["magnets", "snowboarding", "philanthropy", "janitor work", "eating"];
+//Problem 5 1234567890
+const favoriteActivities = ["magnets", "snowboarding", "philanthropy", "janitor work", "eating"];
 
-// function returnFavorites(arr){
-//     /*your code here*/
-//     return "My top three favorite activities are, " + firstFav + ", " + secondFav + ", and " + thirdFav
+function returnFavorites(arr){
+    let [firstFav, secondFav, thirdFav, fourthFav] = arr
+    return `My top three favorite activites are, ${firstFav}, ${secondFav}, and ${thirdFav} and ${fourthFav}!`
+}
+
+console.log(returnFavorites(favoriteActivities))
+
+
+
+
+
+
+//Problem 6 123456789
+// function combineAnimals(arr1, arr2, arr3) {  
+//     let newArr = [...arr1, ...arr2, ...arr3]
+//     console.log(newArr)
+//     return newArr
 // }
+function combineAnimals(...arr) {  
+    let newArr = []
+    for(let i=0; i<arr.length; i++){
+        newArr.push(...arr[i])
+    }
+    console.log(newArr)
+    return newArr
+}
 
-// returnFavorites(favoriteActivities)
+const realAnimals = ["dog", "cat", "mouse"];
+const magicalAnimals = ["jackolope"];
+const mysteriousAnimals = ["platypus"];
+const chickens = ['chicken', 'chicken', 'chicken']
 
-
-
-
-
-
-// //Problem 6 123456789
-// function combineAnimals() {  
- 
-// }
-
-// const realAnimals = ["dog", "cat", "mouse"];
-// const magicalAnimals = ["jackolope"];
-// const mysteriousAnimals = ["platypus"];
-
-// combineAnimals(realAnimals, magicalAnimals, mysteriousAnimals); 
-
-// // ["dog", "cat", "mouse", "jackolope", "platypus"]
+combineAnimals(realAnimals, magicalAnimals, mysteriousAnimals, chickens); 
+// ["dog", "cat", "mouse", "jackolope", "platypus"]
 
 
 
-// //Problem 7 1234567890
-// function product(a, b, c, d, e) {  
-//     var numbers = [a,b,c,d,e];
-  
-//     return numbers.reduce(function(acc, number) {
-//       return acc * number;
-//     }, 1)
-//   }
+//Problem 7 1234567890
+function product(arr) {  
+    console.log(arr.reduce((acc, number) => acc * number, 1))
+    return arr.reduce((acc, number) => acc * number, 1)
+  }
+
+  product([1, 2, 3, 8])
 
 
 
 
-//   //problem 8 1234567890
-//   function unshift(array, a, b, c, d, e) {  
-//   return [a, b, c, d, e].concat(array);
-// }
+  //problem 8 1234567890
+  function unshift(array, ...obj) {  
+        // 2 arrays 1 with the array, and 1 with the objects
+        console.log([...array, ...obj])
+}
 
+const numbrs = [1,2,3,4]
+const joe = {
+    name: 'joe'
+}
+const mike = {
+    name: 'mike'
+}
+const steve = {
+    name: 'steve'
+}
+
+unshift(numbrs, mike, steve, joe)
 
 // //Problem 9 123456789
-// function populatePeople(names){
-//     return names.map(function(name){
-//         name = name.split(" ");
-//         // your code
-//         return {
-//             firstName,
-//             lastName
-//         }
-//     })
-// }
+function populatePeople(names){
+    return names.map((name) => {
+        name = name.split(" ");
+        let [firstName, lastName] = name
+        return {
+            firstName,
+            lastName
+        }
+    })
+}
 
-// populatePeople(["Frank Peterson", "Suzy Degual", "Liza Jones"])
-// //[
-// //  {firstName: "Frank", lastName: "Peterson"},
-// //  {firstName: "Suzy", lastName: "Degual"},
-// //  {firstName: "Liza", lastName: "Jones"},
-// //]
+populatePeople(["Frank Peterson", "Suzy Degual", "Liza Jones"])
+//[
+//  {firstName: "Frank", lastName: "Peterson"},
+//  {firstName: "Suzy", lastName: "Degual"},
+//  {firstName: "Liza", lastName: "Jones"},
+//]
+
+let employee = {
+    name: 'Michael Han',
+    job: 'Developer',
+    pay: 50000,
+    kids: [
+        {
+            name: 'Sekai'
+        },
+        {
+            name: 'Bob'
+        }
+    ]
+}
 

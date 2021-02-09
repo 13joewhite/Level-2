@@ -2,7 +2,7 @@
     position: relative;
     width: 65%;
     height: 250px;
-    display: block; /* fix for opera and ff */
+    display: block; 
 }
 
 #logo {

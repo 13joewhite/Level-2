@@ -27,6 +27,7 @@
 #beauty {
     position: absolute;
     font-style: italic;
+    font-size: 40px;
     color: rgba(211, 211, 211, 0.726);
     top: 115px;
     left: 17%;
@@ -42,8 +43,8 @@
 }
 
 #viewDesign {
-    position: absolute;
-    bottom: 840px;
+    position: relative;
+    bottom: 400px;
     left: 70%;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -53,4 +54,2526 @@
     background-color: rgba(255, 255, 255, 0.15);
     height: 20px;
     width: 400px;
+}
+
+#info1 {
+    background-color: rgba(245, 251, 185, 0.205);
+    position: absolute;
+    top: 255px;
+    width: 64.5%;
+    height: 1150px;
+    display: block; 
+}
+
+#para1 {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: 0px;
+    left: 12%;
+    width: 75%;
+    line-height: 2;
+}
+
+#enlighten {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    position: relative;
+    top: 0px;
+    left: 12%;
+    width: 75%;
+}
+
+#para2 {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: 0px;
+    left: 12%;
+    width: 75%;
+    line-height: 2;
+}
+
+#about {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    position: relative;
+    top: 0px;
+    left: 12%;
+    width: 75%;
+}
+
+#para3 {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: 0px;
+    left: 12%;
+    width: 75%;
+    line-height: 2;
+}
+
+@media only screen and (max-width: 1445px) {
+    #logo {
+        position: absolute;
+        top: 70px;
+        left: 10%;
+        height: 110px;
+        width: 110px;
+    }
+    
+    #mainTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.931);
+        top: 46px;
+        left: 20%;
+    }
+    
+    #beauty {
+        position: absolute;
+        font-style: italic;
+        font-size: 40px;
+        color: rgba(211, 211, 211, 0.726);
+        top: 115px;
+        left: 20%;
+    }
+
+    #viewDesign {
+        position: relative;
+        bottom: 400px;
+        left: 73%;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        padding: 20px 0;
+        color: rgba(255, 255, 255, 0.733);
+        background-color: rgba(255, 255, 255, 0.15);
+        height: 25px;
+        width: 250px;
+    }
+    
+    #info1 {
+        background-color: rgba(245, 251, 185, 0.205);
+        position: absolute;
+        top: 255px;
+        width: 64.5%;
+        height: 1360px;
+        display: block; 
+    }
+    
+    #para1 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        top: 0px;
+        font-size: 20px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #enlighten {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 40px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+
+    #para2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 20px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #about {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 40px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para3 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 20px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+}
+@media only screen and (max-width: 1380px) {
+    #logo {
+        position: absolute;
+        top: 70px;
+        left: 9%;
+        height: 110px;
+        width: 110px;
+    }
+    
+    #mainTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.931);
+        top: 46px;
+        left: 20%;
+    }
+    
+    #beauty {
+        position: absolute;
+        font-style: italic;
+        font-size: 40px;
+        color: rgba(211, 211, 211, 0.726);
+        top: 115px;
+        left: 20%;
+    }
+
+    #viewDesign {
+        position: relative;
+        bottom: 400px;
+        left: 75%;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        padding: 20px 0;
+        color: rgba(255, 255, 255, 0.733);
+        background-color: rgba(255, 255, 255, 0.15);
+        height: 25px;
+        width: 230px;
+    }
+
+    #info1 {
+        background-color: rgba(245, 251, 185, 0.205);
+        position: absolute;
+        top: 255px;
+        width: 64.5%;
+        height: 1300px;
+        display: block; 
+    }
+    
+    #para1 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        top: 0px;
+        font-size: 19px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #enlighten {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 39px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+
+    #para2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 19px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #about {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 39px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para3 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 19px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+}
+@media only screen and (max-width: 1330px) {
+
+    
+    #logo {
+        position: absolute;
+        top: 70px;
+        left: 9%;
+        height: 110px;
+        width: 110px;
+    }
+    
+    #mainTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.931);
+        top: 46px;
+        left: 20%;
+    }
+    
+    #beauty {
+        position: absolute;
+        font-style: italic;
+        font-size: 40px;
+        color: rgba(211, 211, 211, 0.726);
+        top: 115px;
+        left: 20%;
+    }
+
+    #viewDesign {
+        position: relative;
+        bottom: 400px;
+        left: 75%;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        padding: 20px 0;
+        color: rgba(255, 255, 255, 0.733);
+        background-color: rgba(255, 255, 255, 0.15);
+        height: 25px;
+        width: 200px;
+    }
+
+    #info1 {
+        background-color: rgba(245, 251, 185, 0.205);
+        position: absolute;
+        top: 255px;
+        width: 64.5%;
+        height: 1210px;
+        display: block; 
+    }
+    
+    #para1 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        top: 0px;
+        font-size: 18px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #enlighten {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 38px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+
+    #para2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 18px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #about {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 38px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para3 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 18px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+}
+@media only screen and (max-width: 1280px) {
+
+    
+    #logo {
+        position: absolute;
+        top: 75px;
+        left: 8%;
+        height: 100px;
+        width: 100px;
+    }
+    
+    #mainTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 380;
+        font-size: 50px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.931);
+        top: 46px;
+        left: 20%;
+    }
+    
+    #beauty {
+        position: absolute;
+        font-style: italic;
+        font-size: 40px;
+        color: rgba(211, 211, 211, 0.726);
+        top: 115px;
+        left: 20%;
+    }
+
+    #viewDesign {
+        position: relative;
+        bottom: 400px;
+        left: 75%;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        padding: 20px 0;
+        color: rgba(255, 255, 255, 0.733);
+        background-color: rgba(255, 255, 255, 0.15);
+        height: 25px;
+        width: 190px;
+    }
+
+    #info1 {
+        background-color: rgba(245, 251, 185, 0.205);
+        position: absolute;
+        top: 255px;
+        width: 64.5%;
+        height: 1020px;
+        display: block; 
+    }
+    
+    #para1 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        top: 0px;
+        font-size: 15px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #enlighten {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 35px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+
+
+    #para2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 15px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #about {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 35px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para3 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 15px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+}
+@media only screen and (max-width: 1230px) {
+
+    
+    #logo {
+        position: absolute;
+        top: 75px;
+        left: 8%;
+        height: 100px;
+        width: 100px;
+    }
+    
+    #mainTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 380;
+        font-size: 50px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.931);
+        top: 46px;
+        left: 20%;
+    }
+    
+    #beauty {
+        position: absolute;
+        font-style: italic;
+        font-size: 40px;
+        color: rgba(211, 211, 211, 0.726);
+        top: 115px;
+        left: 20%;
+    }
+
+    #viewDesign {
+        position: relative;
+        bottom: 400px;
+        left: 75%;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        padding: 20px 0;
+        color: rgba(255, 255, 255, 0.733);
+        background-color: rgba(255, 255, 255, 0.15);
+        height: 25px;
+        width: 180px;
+    }
+
+    #info1 {
+        background-color: rgba(245, 251, 185, 0.205);
+        position: absolute;
+        top: 255px;
+        width: 64.5%;
+        height: 1050px;
+        display: block; 
+    }
+    
+    #para1 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        top: 0px;
+        font-size: 10px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #enlighten {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #about {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para3 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+}
+@media only screen and (max-width: 1180px) {
+    #logo {
+        position: absolute;
+        top: 90px;
+        left: 8%;
+        height: 90px;
+        width: 90px;
+    }
+    
+    #mainTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 46px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.931);
+        top: 65px;
+        left: 20%;
+    }
+    
+    #beauty {
+        position: absolute;
+        font-style: italic;
+        font-size: 36px;
+        color: rgba(211, 211, 211, 0.726);
+        top: 110px;
+        left: 20%;
+    }
+
+    #viewDesign {
+        position: relative;
+        bottom: 400px;
+        left: 75%;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        padding: 20px 0;
+        color: rgba(255, 255, 255, 0.733);
+        background-color: rgba(255, 255, 255, 0.15);
+        height: 25px;
+        width: 180px;
+    }
+
+    #info1 {
+        background-color: rgba(245, 251, 185, 0.205);
+        position: absolute;
+        top: 255px;
+        width: 64.5%;
+        height: 1070px;
+        display: block; 
+    }
+    
+    #para1 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        top: 0px;
+        font-size: 10px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #enlighten {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+
+
+    #para2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #about {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para3 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+}
+@media only screen and (max-width: 1130px) {
+    #logo {
+        position: absolute;
+        top: 90px;
+        left: 8%;
+        height: 90px;
+        width: 90px;
+    }
+    
+    #mainTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 42px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.931);
+        top: 70px;
+        left: 20%;
+    }
+    
+    #beauty {
+        position: absolute;
+        font-style: italic;
+        font-size: 32px;
+        color: rgba(211, 211, 211, 0.726);
+        top: 110px;
+        left: 20%;
+    }
+
+    #viewDesign {
+        position: relative;
+        bottom: 400px;
+        left: 75%;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        padding: 20px 0;
+        color: rgba(255, 255, 255, 0.733);
+        background-color: rgba(255, 255, 255, 0.15);
+        height: 25px;
+        width: 160px;
+    }
+
+    #info1 {
+        background-color: rgba(245, 251, 185, 0.205);
+        position: absolute;
+        top: 255px;
+        width: 64.5%;
+        height: 1070px;
+        display: block; 
+    }
+    
+    #para1 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        top: 0px;
+        font-size: 10px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #enlighten {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+
+
+    #para2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #about {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para3 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+}
+@media only screen and (max-width: 1080px) {
+    #logo {
+        position: absolute;
+        top: 100px;
+        left: 8%;
+        height: 80px;
+        width: 80px;
+    }
+    
+    #mainTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 38px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.931);
+        top: 85px;
+        left: 20%;
+    }
+    
+    #beauty {
+        position: absolute;
+        font-style: italic;
+        font-size: 28px;
+        color: rgba(211, 211, 211, 0.726);
+        top: 120px;
+        left: 20%;
+    }
+
+    #viewDesign {
+        position: relative;
+        bottom: 400px;
+        left: 75%;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        padding: 20px 0;
+        color: rgba(255, 255, 255, 0.733);
+        background-color: rgba(255, 255, 255, 0.15);
+        height: 25px;
+        width: 155px;
+    }
+
+
+    #info1 {
+        background-color: rgba(245, 251, 185, 0.205);
+        position: absolute;
+        top: 255px;
+        width: 64.5%;
+        height: 1150px;
+        display: block; 
+    }
+    
+    #para1 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        top: 0px;
+        font-size: 10px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #enlighten {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+
+
+    #para2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #about {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para3 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+}
+@media only screen and (max-width: 1030px) {
+    #logo {
+        position: absolute;
+        top: 100px;
+        left: 8%;
+        height: 80px;
+        width: 80px;
+    }
+    
+    #mainTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.931);
+        top: 95px;
+        left: 20%;
+    }
+    
+    #beauty {
+        position: absolute;
+        font-style: italic;
+        font-size: 24px;
+        color: rgba(211, 211, 211, 0.726);
+        top: 120px;
+        left: 20%;
+    }
+
+    #viewDesign {
+        position: relative;
+        bottom: 400px;
+        left: 75%;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        padding: 20px 0;
+        color: rgba(255, 255, 255, 0.733);
+        background-color: rgba(255, 255, 255, 0.15);
+        height: 25px;
+        width: 150px;
+    }
+
+    #info1 {
+        background-color: rgba(245, 251, 185, 0.205);
+        position: absolute;
+        top: 255px;
+        width: 64.5%;
+        height: 1200px;
+        display: block; 
+    }
+    
+    #para1 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        top: 0px;
+        font-size: 10px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #enlighten {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+
+
+    #para2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #about {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para3 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+}
+@media only screen and (max-width: 980px) { 
+    #logo {
+        position: absolute;
+        top: 100px;
+        left: 8%;
+        height: 75px;
+        width: 75px;
+    }
+    
+    #mainTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.931);
+        top: 95px;
+        left: 20%;
+    }
+    
+    #beauty {
+        position: absolute;
+        font-style: italic;
+        font-size: 18px;
+        color: rgba(211, 211, 211, 0.726);
+        top: 125px;
+        left: 20%;
+    }
+
+    #viewDesign {
+        position: relative;
+        bottom: 400px;
+        left: 75%;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        padding: 20px 0;
+        color: rgba(255, 255, 255, 0.733);
+        background-color: rgba(255, 255, 255, 0.15);
+        height: 25px;
+        width: 140px;
+    }
+
+    #info1 {
+        background-color: rgba(245, 251, 185, 0.205);
+        position: absolute;
+        top: 255px;
+        width: 64.5%;
+        height: 1200px;
+        display: block; 
+    }
+    
+    #para1 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        top: 0px;
+        font-size: 10px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #enlighten {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+
+
+    #para2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #about {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para3 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+}
+@media only screen and (max-width: 930px) {
+    #logo {
+        position: absolute;
+        top: 100px;
+        left: 8%;
+        height: 75px;
+        width: 75px;
+    }
+    
+    #mainTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.931);
+        top: 95px;
+        left: 20%;
+    }
+    
+    #beauty {
+        position: absolute;
+        font-style: italic;
+        font-size: 18px;
+        color: rgba(211, 211, 211, 0.726);
+        top: 125px;
+        left: 20%;
+    }
+
+    #viewDesign {
+        position: relative;
+        bottom: 400px;
+        left: 75%;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        padding: 20px 0;
+        color: rgba(255, 255, 255, 0.733);
+        background-color: rgba(255, 255, 255, 0.15);
+        height: 25px;
+        width: 140px;
+    }
+    #info1 {
+        background-color: rgba(245, 251, 185, 0.205);
+        position: absolute;
+        top: 255px;
+        width: 64.5%;
+        height: 1380px;
+        display: block; 
+    }
+    
+    #para1 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        top: 0px;
+        font-size: 10px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #enlighten {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+
+
+    #para2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #about {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para3 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+}
+@media only screen and (max-width: 880px) {    
+#logo {
+    position: absolute;
+    top: 100px;
+    left: 8%;
+    height: 75px;
+    width: 75px;
+}
+
+#mainTitle {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.931);
+    top: 90px;
+    left: 20%;
+}
+
+#beauty {
+    position: absolute;
+    font-style: italic;
+    font-size: 18px;
+    color: rgba(211, 211, 211, 0.726);
+    top: 125px;
+    left: 20%;
+}
+
+#viewDesign {
+    position: relative;
+    bottom: 400px;
+    left: 75%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    padding: 20px 0;
+    color: rgba(255, 255, 255, 0.733);
+    background-color: rgba(255, 255, 255, 0.15);
+    height: 25px;
+    width: 140px;
+}
+
+#info1 {
+    background-color: rgba(245, 251, 185, 0.205);
+    position: absolute;
+    top: 255px;
+    width: 64.5%;
+    height: 1440px;
+    display: block; 
+}
+
+#para1 {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: 0px;
+    font-size: 10px;
+    left: 12%;
+    width: 75%;
+    line-height: 2;
+}
+
+#enlighten {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    position: relative;
+    top: 0px;
+    left: 12%;
+    width: 75%;
+}
+
+
+
+#para2 {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    font-size: 10px;
+    top: 0px;
+    left: 12%;
+    width: 75%;
+    line-height: 2;
+}
+
+#about {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    position: relative;
+    top: 0px;
+    left: 12%;
+    width: 75%;
+}
+
+#para3 {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    font-size: 10px;
+    top: 0px;
+    left: 12%;
+    width: 75%;
+    line-height: 2;
+}
+
+}
+@media only screen and (max-width: 830px) {    
+#logo {
+    position: absolute;
+    top: 100px;
+    left: 8%;
+    height: 75px;
+    width: 75px;
+}
+
+#mainTitle {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.931);
+    top: 90px;
+    left: 20%;
+}
+
+#beauty {
+    position: absolute;
+    font-style: italic;
+    font-size: 18px;
+    color: rgba(211, 211, 211, 0.726);
+    top: 125px;
+    left: 20%;
+}
+
+#viewDesign {
+    position: relative;
+    bottom: 400px;
+    left: 75%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    padding: 20px 0;
+    color: rgba(255, 255, 255, 0.733);
+    background-color: rgba(255, 255, 255, 0.15);
+    height: 25px;
+    width: 140px;
+}
+
+#info1 {
+    background-color: rgba(245, 251, 185, 0.205);
+    position: absolute;
+    top: 255px;
+    width: 64.5%;
+    height: 1500px;
+    display: block; 
+}
+
+#para1 {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: 0px;
+    font-size: 10px;
+    left: 12%;
+    width: 75%;
+    line-height: 2;
+}
+
+#enlighten {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    position: relative;
+    top: 0px;
+    left: 12%;
+    width: 75%;
+}
+
+
+
+#para2 {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    font-size: 10px;
+    top: 0px;
+    left: 12%;
+    width: 75%;
+    line-height: 2;
+}
+
+#about {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    position: relative;
+    top: 0px;
+    left: 12%;
+    width: 75%;
+}
+
+#para3 {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    font-size: 10px;
+    top: 0px;
+    left: 12%;
+    width: 75%;
+    line-height: 2;
+}
+
+}
+@media only screen and (max-width: 800px) {
+    #logo {
+        position: absolute;
+        top: 100px;
+        left: 6%;
+        height: 75px;
+        width: 75px;
+    }
+    
+    #mainTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.931);
+        top: 90px;
+        left: 20%;
+    }
+    
+    #beauty {
+        position: absolute;
+        font-style: italic;
+        font-size: 18px;
+        color: rgba(211, 211, 211, 0.726);
+        top: 125px;
+        left: 20%;
+    }
+
+    #viewDesign {
+        position: relative;
+        bottom: 400px;
+        left: 75%;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        padding: 20px 0;
+        color: rgba(255, 255, 255, 0.733);
+        background-color: rgba(255, 255, 255, 0.15);
+        height: 25px;
+        width: 85px;
+    }
+
+    #info1 {
+        background-color: rgba(245, 251, 185, 0.205);
+        position: absolute;
+        top: 255px;
+        width: 64.5%;
+        height: 1520px;
+        display: block; 
+    }
+    
+    #para1 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        top: 0px;
+        font-size: 10px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #enlighten {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+
+
+    #para2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #about {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para3 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+}
+@media only screen and (max-width: 770px) {
+    #logo {
+        position: absolute;
+        top: 100px;
+        left: 6%;
+        height: 75px;
+        width: 75px;
+    }
+    
+    #mainTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.931);
+        top: 90px;
+        left: 20%;
+    }
+    
+    #beauty {
+        position: absolute;
+        font-style: italic;
+        font-size: 18px;
+        color: rgba(211, 211, 211, 0.726);
+        top: 125px;
+        left: 20%;
+    }
+
+    #viewDesign {
+        position: relative;
+        bottom: 400px;
+        left: 75%;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        padding: 20px 0;
+        color: rgba(255, 255, 255, 0.733);
+        background-color: rgba(255, 255, 255, 0.15);
+        height: 25px;
+        width: 85px;
+    }
+
+    #info1 {
+        background-color: rgba(245, 251, 185, 0.205);
+        position: absolute;
+        top: 255px;
+        width: 64.5%;
+        height: 1630px;
+        display: block; 
+    }
+    
+    #para1 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        top: 0px;
+        font-size: 10px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #enlighten {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+
+
+    #para2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #about {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para3 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+}
+@media only screen and (max-width: 740px) {
+    #logo {
+        position: absolute;
+        top: 100px;
+        left: 6%;
+        height: 75px;
+        width: 75px;
+    }
+    
+    #mainTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.931);
+        top: 90px;
+        left: 20%;
+    }
+    
+    #beauty {
+        position: absolute;
+        font-style: italic;
+        font-size: 18px;
+        color: rgba(211, 211, 211, 0.726);
+        top: 125px;
+        left: 20%;
+    }
+
+    #viewDesign {
+        position: relative;
+        bottom: 400px;
+        left: 75%;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        padding: 20px 0;
+        color: rgba(255, 255, 255, 0.733);
+        background-color: rgba(255, 255, 255, 0.15);
+        height: 25px;
+        width: 85px;
+    }
+
+    #info1 {
+        background-color: rgba(245, 251, 185, 0.205);
+        position: absolute;
+        top: 255px;
+        width: 64.5%;
+        height: 1650px;
+        display: block; 
+    }
+    
+    #para1 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        top: 0px;
+        font-size: 10px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #enlighten {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #about {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para3 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+}
+@media only screen and (max-width: 710px) {
+    #logo {
+        position: absolute;
+        top: 100px;
+        left: 6%;
+        height: 75px;
+        width: 75px;
+    }
+    
+    #mainTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.931);
+        top: 90px;
+        left: 20%;
+    }
+    
+    #beauty {
+        position: absolute;
+        font-style: italic;
+        font-size: 18px;
+        color: rgba(211, 211, 211, 0.726);
+        top: 125px;
+        left: 20%;
+    }
+
+    #viewDesign {
+        position: relative;
+        bottom: 400px;
+        left: 75%;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        padding: 20px 0;
+        color: rgba(255, 255, 255, 0.733);
+        background-color: rgba(255, 255, 255, 0.15);
+        height: 25px;
+        width: 85px;
+    }
+
+    #info1 {
+        background-color: rgba(245, 251, 185, 0.205);
+        position: absolute;
+        top: 255px;
+        width: 64.5%;
+        height: 1650px;
+        display: block; 
+    }
+    
+    #para1 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        top: 0px;
+        font-size: 10px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #enlighten {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+
+
+    #para2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #about {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para3 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+}
+@media only screen and (max-width: 680px) {
+    #logo {
+        position: absolute;
+        top: 100px;
+        left: 6%;
+        height: 70px;
+        width: 70px;
+    }
+    
+    #mainTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.931);
+        top: 90px;
+        left: 20%;
+    }
+    
+    #beauty {
+        position: absolute;
+        font-style: italic;
+        font-size: 15px;
+        color: rgba(211, 211, 211, 0.726);
+        top: 125px;
+        left: 20%;
+    }
+
+    #viewDesign {
+        position: relative;
+        bottom: 400px;
+        left: 75%;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        padding: 20px 0;
+        color: rgba(255, 255, 255, 0.733);
+        background-color: rgba(255, 255, 255, 0.15);
+        height: 25px;
+        width: 85px;
+    }
+
+    #info1 {
+        background-color: rgba(245, 251, 185, 0.205);
+        position: absolute;
+        top: 255px;
+        width: 64.5%;
+        height: 1790px;
+        display: block; 
+    }
+    
+    #para1 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        top: 0px;
+        font-size: 10px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #enlighten {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+
+
+    #para2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #about {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para3 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+}
+@media only screen and (max-width: 650px) {
+    #logo {
+        position: absolute;
+        top: 100px;
+        left: 6%;
+        height: 65px;
+        width: 65px;
+    }
+    
+    #mainTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.931);
+        top: 90px;
+        left: 20%;
+    }
+    
+    #beauty {
+        position: absolute;
+        font-style: italic;
+        font-size: 14px;
+        color: rgba(211, 211, 211, 0.726);
+        top: 120px;
+        left: 20%;
+    }
+
+    #viewDesign {
+        position: relative;
+        bottom: 400px;
+        left: 75%;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        padding: 20px 0;
+        color: rgba(255, 255, 255, 0.733);
+        background-color: rgba(255, 255, 255, 0.15);
+        height: 20px;
+        width: 80px;
+    }
+    #info1 {
+        background-color: rgba(245, 251, 185, 0.205);
+        position: absolute;
+        top: 255px;
+        width: 64.5%;
+        height: 1850px;
+        display: block; 
+    }
+    
+    #para1 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        top: 0px;
+        font-size: 10px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #enlighten {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+
+
+    #para2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #about {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para3 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+}
+@media only screen and (max-width: 620px) {
+    #logo {
+        position: absolute;
+        top: 100px;
+        left: 6%;
+        height: 60px;
+        width: 60px;
+    }
+    
+    #mainTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.931);
+        top: 90px;
+        left: 20%;
+    }
+    
+    #beauty {
+        position: absolute;
+        font-style: italic;
+        font-size: 10px;
+        color: rgba(211, 211, 211, 0.726);
+        top: 120px;
+        left: 20%;
+    }
+
+    #viewDesign {
+        position: relative;
+        bottom: 400px;
+        left: 75%;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        padding: 20px 0;
+        color: rgba(255, 255, 255, 0.733);
+        background-color: rgba(255, 255, 255, 0.15);
+        height: 20px;
+        width: 80px;
+    }
+
+    #info1 {
+        background-color: rgba(245, 251, 185, 0.205);
+        position: absolute;
+        top: 255px;
+        width: 64.5%;
+        height: 1940px;
+        display: block; 
+    }
+    
+    #para1 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        top: 0px;
+        font-size: 10px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #enlighten {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+
+
+    #para2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #about {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para3 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    
+    }
+@media only screen and (max-width: 590px) {
+    #logo {
+        position: absolute;
+        top: 100px;
+        left: 6%;
+        height: 60px;
+        width: 60px;
+    }
+    
+    #mainTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.931);
+        top: 90px;
+        left: 20%;
+    }
+    
+    #beauty {
+        position: absolute;
+        font-style: italic;
+        font-size: 12px;
+        color: rgba(211, 211, 211, 0.726);
+        top: 120px;
+        left: 20%;
+    }
+
+    #viewDesign {
+        position: relative;
+        bottom: 400px;
+        left: 75%;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        padding: 20px 0;
+        color: rgba(255, 255, 255, 0.733);
+        background-color: rgba(255, 255, 255, 0.15);
+        height: 20px;
+        width: 70px;
+    }
+    #info1 {
+        background-color: rgba(245, 251, 185, 0.205);
+        position: absolute;
+        top: 255px;
+        width: 64.5%;
+        height: 2060px;
+        display: block; 
+    }
+    
+    #para1 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        top: 0px;
+        font-size: 10px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #enlighten {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+
+
+    #para2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #about {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para3 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    
+    }
+@media only screen and (max-width: 560px) {
+    #logo {
+        position: absolute;
+        top: 100px;
+        left: 6%;
+        height: 55px;
+        width: 55px;
+    }
+    
+    #mainTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.931);
+        top: 90px;
+        left: 20%;
+    }
+    
+    #beauty {
+        position: absolute;
+        font-style: italic;
+        font-size: 10px;
+        color: rgba(211, 211, 211, 0.726);
+        top: 120px;
+        left: 20%;
+    }
+
+    #viewDesign {
+        position: relative;
+        bottom: 400px;
+        left: 75%;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        padding: 20px 0;
+        color: rgba(255, 255, 255, 0.733);
+        background-color: rgba(255, 255, 255, 0.15);
+        height: 20px;
+        width: 70px;
+    }
+
+    #info1 {
+        background-color: rgba(245, 251, 185, 0.205);
+        position: absolute;
+        top: 255px;
+        width: 64.5%;
+        height: 2090px;
+        display: block; 
+    }
+    
+    #para1 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        top: 0px;
+        font-size: 10px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #enlighten {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+
+
+    #para2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #about {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para3 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    
+    }
+@media only screen and (max-width: 530px) {
+    #logo {
+        position: absolute;
+        top: 100px;
+        left: 6%;
+        height: 55px;
+        width: 55px;
+    }
+    
+    #mainTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.931);
+        top: 90px;
+        left: 20%;
+    }
+    
+    #beauty {
+        position: absolute;
+        font-style: italic;
+        font-size: 10px;
+        color: rgba(211, 211, 211, 0.726);
+        top: 120px;
+        left: 20%;
+    }
+
+    #viewDesign {
+        position: relative;
+        bottom: 400px;
+        left: 75%;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        padding: 20px 0;
+        color: rgba(255, 255, 255, 0.733);
+        background-color: rgba(255, 255, 255, 0.15);
+        height: 20px;
+        width: 70px;
+    }   
+    
+    #info1 {
+        background-color: rgba(245, 251, 185, 0.205);
+        position: absolute;
+        top: 255px;
+        width: 64.5%;
+        height: 2250px;
+        display: block; 
+    }
+
+    #para1 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        top: 0px;
+        font-size: 10px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #enlighten {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+
+
+    #para2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #about {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para3 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+    
+    }
+@media only screen and (max-width: 500px) {
+    #logo {
+        position: absolute;
+        top: 100px;
+        left: 6%;
+        height: 55px;
+        width: 55px;
+    }
+    
+    #mainTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.931);
+        top: 90px;
+        left: 20%;
+    }
+    
+    #beauty {
+        position: absolute;
+        font-style: italic;
+        font-size: 10px;
+        color: rgba(211, 211, 211, 0.726);
+        top: 120px;
+        left: 20%;
+    }
+
+    #viewDesign {
+        position: relative;
+        bottom: 400px;
+        left: 75%;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        padding: 20px 0;
+        color: rgba(255, 255, 255, 0.733);
+        background-color: rgba(255, 255, 255, 0.15);
+        height: 20px;
+        width: 70px;
+    }
+
+    #info1 {
+        background-color: rgba(245, 251, 185, 0.205);
+        position: absolute;
+        top: 255px;
+        width: 64.5%;
+        height: 2280px;
+        display: block; 
+    }
+
+    #para1 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        top: 0px;
+        font-size: 10px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #enlighten {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #about {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para3 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }   
 }

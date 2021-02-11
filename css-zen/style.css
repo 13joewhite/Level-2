@@ -1,10 +1,11 @@
+
+/* SECTION 1 THE SECTION CONTAINING THE TITLE OF THE PAGE */
 #title {
     position: relative;
     width: 65%;
     height: 250px;
     display: block; 
 }
-
 #logo {
     position: absolute;
     top: 70px;
@@ -12,7 +13,6 @@
     height: 110px;
     width: 110px;
 }
-
 #mainTitle {
     font-family: 'Courier New', Courier, monospace;
     font-style: normal;
@@ -23,7 +23,6 @@
     top: 46px;
     left: 17%;
 }
-
 #beauty {
     position: absolute;
     font-style: italic;
@@ -32,7 +31,7 @@
     top: 115px;
     left: 17%;
 }
-
+/* SECTION 2 THE SECTION WITH THE VIEW DESIGNS LINK */
 #topRight {
     position: relative;
     bottom: 250px;
@@ -41,7 +40,6 @@
     height: 250px;
     display: block;
 }
-
 #viewDesign {
     position: relative;
     bottom: 400px;
@@ -55,7 +53,7 @@
     height: 20px;
     width: 400px;
 }
-
+/* SECTION 3 THE INFORMATION SECTION CONTAINING THE DETAILS OF THE WEBSITE */
 #info1 {
     background-color: rgba(245, 251, 185, 0.205);
     position: absolute;
@@ -64,7 +62,14 @@
     height: 1150px;
     display: block; 
 }
-
+.link1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: rgb(53, 197, 48);
+}
+.link1:hover{
+    color: rgba(190, 147, 66, 0.452);
+}
 #para1 {
     font-family: 'Courier New', Courier, monospace;
     position: relative;
@@ -73,7 +78,6 @@
     width: 75%;
     line-height: 2;
 }
-
 #enlighten {
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
@@ -82,7 +86,6 @@
     left: 12%;
     width: 75%;
 }
-
 #para2 {
     font-family: 'Courier New', Courier, monospace;
     position: relative;
@@ -91,7 +94,6 @@
     width: 75%;
     line-height: 2;
 }
-
 #about {
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
@@ -100,7 +102,6 @@
     left: 12%;
     width: 75%;
 }
-
 #para3 {
     font-family: 'Courier New', Courier, monospace;
     position: relative;
@@ -108,6 +109,233 @@
     left: 12%;
     width: 75%;
     line-height: 2;
+}
+#othersWork {
+    background-color: rgba(185, 207, 143, 0.431);
+    position: relative;
+    bottom: 320px;
+    left: 65%;
+    width: 35%;
+    height: 1360px;
+    display: block; 
+}
+/* SECTION 4 CONTSAINING THE PROJECT LINKS AND CREATORS */
+.projectTitle1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 27px;
+    text-decoration: none;
+    color: rgba(53, 197, 48, 0.5);
+}
+.projectTitle1:hover {
+    color: rgba(190, 147, 66, 0.452);
+}
+.projectTitle2:hover {
+    color: rgba(190, 147, 66, 0.452);
+}
+.projectTitle2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(53, 197, 48, 0.5);
+}
+#box1 {
+    position: relative;
+    top: 7%;
+    left: 15%;
+    width: 300px;
+    border-bottom: 1px solid grey;
+    padding: 30px;
+}
+#box2 {
+    position: relative;
+    top: 8%;
+    left: 15%;
+    width: 300px;
+    border-bottom: 1px solid grey;
+    padding: 30px;
+}
+#box3 {
+    position: relative;
+    top: 9%;
+    left: 15%;
+    width: 300px;
+    border-bottom: 1px solid grey;
+    padding: 30px;
+}
+#box4 {
+    position: relative;
+    top: 10%;
+    left: 15%;
+    width: 300px;
+    border-bottom: 1px solid grey;
+    padding: 30px;
+}
+#box5 {
+    position: relative;
+    top: 11%;
+    left: 15%;
+    width: 300px;
+    border-bottom: 1px solid grey;
+    padding: 30px;
+}
+#box6 {
+    position: relative;
+    top: 12%;
+    left: 15%;
+    width: 300px;
+    border-bottom: 1px solid grey;
+    padding: 30px;
+}
+#box7 {
+    position: relative;
+    top: 13%;
+    left: 15%;
+    width: 300px;
+    border-bottom: 1px solid grey;
+    padding: 30px;
+}
+#box8 {
+    position: relative;
+    top: 14%;
+    left: 15%;
+    width: 300px;
+    border-bottom: 1px solid grey;
+    padding: 30px;
+}
+/* SECTION 5 CONTAINING PARTICIPATION AND BENEFITS */
+#info2 {
+    background-color: rgba(77, 110, 46, 0.253);
+    position: relative;
+    bottom: 345px;
+    width: 65%;
+    height: 1000px;
+    display: block; 
+}
+.participationBenefits {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    position: relative;
+    top: 50px;
+    left: 12%;
+    width: 75%;
+}
+.pbParagraph {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: 50px;
+    left: 12%;
+    width: 75%;
+    line-height: 1.5;
+}
+/* SECTION 6 CONTAINING THE QUICK LINKS */
+#infoLinks {
+    background-color: rgba(77, 110, 46, 0.322);
+    position: relative;
+    bottom: 1346.5px;
+    left: 65%;
+    width: 35%;
+    height: 1000px;
+    display: block;
+}
+
+.info-link {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 27px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.554);
+}
+
+.info-link:hover {
+    color: rgba(197, 147, 55, 0.726)
+}
+
+#anotherLink1 {
+    position: relative;
+    top: 25%;
+    left: 15%;
+    width: 300px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 20px;
+    
+}
+#anotherLink2 {
+    position: relative;
+    top: 25%;
+    left: 15%;
+    width: 300px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 20px;
+}
+#anotherLink3 {
+    position: relative;
+    top: 25%;
+    left: 15%;
+    width: 300px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 20px;
+}
+#anotherLink4 {
+    position: relative;
+    top: 25%;
+    left: 15%;
+    width: 300px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 20px;
+}
+#anotherLink5 {
+    position: relative;
+    top: 25%;
+    left: 15%;
+    width: 300px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 20px;
+}
+/* SECTION 6 REQUIRMENTS */
+#requirments {
+background-color: rgba(107, 96, 82, 0.123);
+position: relative;
+bottom: 1375px;
+width: 65%;
+height: 1200px;
+display: block; 
+}
+#require {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    position: relative;
+    top: 50px;
+    left: 12%;
+    width: 75%;
+}
+#finalParagraph {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    font-size: 20px;
+    top: 30px;
+    left: 12%;
+    width: 75%;
+    line-height: 2;
+}
+/* SECTION 7 Blank */
+#blankSpace {
+    background-color: rgba(54, 68, 41, 0.322);
+    position: relative;
+    bottom: 2575px;
+    left: 65%;
+    width: 35%;
+    height: 1200px;
+    display: block;
+}
+/* SECTION 8 FINAL IMG */
+#finalIMG {
+    position: relative;
+    height: 300px;
+    width: 100%;
 }
 
 @media only screen and (max-width: 1445px) {
@@ -210,6 +438,245 @@
         width: 75%;
         line-height: 2;
     }
+
+    #othersWork {
+        background-color: rgba(185, 207, 143, 0.431);
+        position: relative;
+        bottom: 320px;
+        left: 65%;
+        width: 35%;
+        height: 1360px;
+        display: block; 
+    }
+    /* SECTION 4 CONTSAINING THE PROJECT LINKS AND CREATORS */
+    .projectTitle1 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 27px;
+        text-decoration: none;
+        color: rgba(53, 197, 48, 0.5);
+    }
+
+    .projectTitle1:hover {
+        color: rgba(190, 147, 66, 0.452);
+    }
+
+    .projectTitle2:hover {
+        color: rgba(190, 147, 66, 0.452);
+    }
+
+    .projectTitle2 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        text-decoration: none;
+        color: rgba(53, 197, 48, 0.5);
+    }
+
+    #box1 {
+        position: relative;
+        top: 7%;
+        left: 15%;
+        width: 300px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box2 {
+        position: relative;
+        top: 8%;
+        left: 15%;
+        width: 300px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box3 {
+        position: relative;
+        top: 9%;
+        left: 15%;
+        width: 300px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box4 {
+        position: relative;
+        top: 10%;
+        left: 15%;
+        width: 300px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box5 {
+        position: relative;
+        top: 11%;
+        left: 15%;
+        width: 300px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box6 {
+        position: relative;
+        top: 12%;
+        left: 15%;
+        width: 300px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box7 {
+        position: relative;
+        top: 13%;
+        left: 15%;
+        width: 300px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box8 {
+        position: relative;
+        top: 14%;
+        left: 15%;
+        width: 300px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+
+    /* SECTION 5 CONTAINING PARTICIPATION AND BENEFITS */
+    #info2 {
+        background-color: rgba(77, 110, 46, 0.253);
+        position: relative;
+        bottom: 348px;
+        width: 65%;
+        height: 850px;
+        display: block; 
+    }
+
+
+    .participationBenefits {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 40px;
+        position: relative;
+        top: 50px;
+        left: 12%;
+        width: 75%;
+    }
+
+    .pbParagraph {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        top: 50px;
+        left: 12%;
+        width: 75%;
+        line-height: 1.5;
+    }
+    /* SECTION 6 CONTAINING THE QUICK LINKS */
+    #infoLinks {
+        background-color: rgba(77, 110, 46, 0.322);
+        position: relative;
+        bottom: 1198px;
+        left: 65%;
+        width: 35%;
+        height: 850px;
+        display: block;
+    }
+
+    .info-link {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 27px;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.554);
+    }
+
+    .info-link:hover {
+        color: rgba(197, 147, 55, 0.726)
+    }
+
+    #anotherLink1 {
+        position: relative;
+        top: 25%;
+        left: 15%;
+        width: 300px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+        
+    }
+    #anotherLink2 {
+        position: relative;
+        top: 25%;
+        left: 15%;
+        width: 300px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink3 {
+        position: relative;
+        top: 25%;
+        left: 15%;
+        width: 300px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink4 {
+        position: relative;
+        top: 25%;
+        left: 15%;
+        width: 300px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink5 {
+        position: relative;
+        top: 25%;
+        left: 15%;
+        width: 300px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    /* SECTION 6 REQUIRMENTS */
+    #requirments {
+    background-color: rgba(107, 96, 82, 0.123);
+    position: relative;
+    bottom: 1225px;
+    width: 65%;
+    height: 1200px;
+    display: block; 
+    }
+    #require {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 40px;
+        position: relative;
+        top: 50px;
+        left: 12%;
+        width: 75%;
+    }
+    #finalParagraph {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 20px;
+        top: 30px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+    /* SECTION 7 Blank */
+    #blankSpace {
+        background-color: rgba(54, 68, 41, 0.322);
+        position: relative;
+        bottom: 2425px;
+        left: 65%;
+        width: 35%;
+        height: 1200px;
+        display: block;
+    }
+
 }
 @media only screen and (max-width: 1380px) {
     #logo {
@@ -267,7 +734,7 @@
         font-family: 'Courier New', Courier, monospace;
         position: relative;
         top: 0px;
-        font-size: 19px;
+        font-size: 18px;
         left: 12%;
         width: 75%;
         line-height: 2;
@@ -275,7 +742,7 @@
 
     #enlighten {
         font-family: 'Courier New', Courier, monospace;
-        font-size: 39px;
+        font-size: 25px;
         position: relative;
         top: 0px;
         left: 12%;
@@ -286,7 +753,7 @@
     #para2 {
         font-family: 'Courier New', Courier, monospace;
         position: relative;
-        font-size: 19px;
+        font-size: 18px;
         top: 0px;
         left: 12%;
         width: 75%;
@@ -295,7 +762,7 @@
 
     #about {
         font-family: 'Courier New', Courier, monospace;
-        font-size: 39px;
+        font-size: 25px;
         position: relative;
         top: 0px;
         left: 12%;
@@ -305,116 +772,261 @@
     #para3 {
         font-family: 'Courier New', Courier, monospace;
         position: relative;
-        font-size: 19px;
+        font-size: 18px;
         top: 0px;
         left: 12%;
         width: 75%;
         line-height: 2;
     }
-}
-@media only screen and (max-width: 1330px) {
-
-    
-    #logo {
-        position: absolute;
-        top: 70px;
-        left: 9%;
-        height: 110px;
-        width: 110px;
+    /* SECTION 4 CONTSAINING THE PROJECT LINKS AND CREATORS */
+    #othersWork {
+    background-color: rgba(185, 207, 143, 0.431);
+    position: relative;
+    bottom: 320px;
+    left: 65%;
+    width: 35%;
+    height: 1150px;
+    display: block; 
     }
-    
-    #mainTitle {
+
+    .projectTitle1 {
         font-family: 'Courier New', Courier, monospace;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 50px;
-        position: absolute;
-        color: rgba(255, 255, 255, 0.931);
-        top: 46px;
-        left: 20%;
+        margin: 0px;
+        position: relative;
+        right: 5px;
+        font-size: 25px;
+        text-decoration: none;
+        color: rgba(53, 197, 48, 0.5);
+    }
+
+    .projectTitle1:hover {
+        color: rgba(190, 147, 66, 0.452);
+    }
+
+    .projectTitle2:hover {
+        color: rgba(190, 147, 66, 0.452);
+    }
+
+    .projectTitle2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        right: 5px;
+        font-size: 18px;
+        text-decoration: none;
+        color: rgba(53, 197, 48, 0.5);
+    }
+
+    #box1 {
+        position: relative;
+        top: 4%;
+        left: 10%;
+        width: 250px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box2 {
+        position: relative;
+        top: 5%;
+        left: 10%;
+        width: 250px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box3 {
+        position: relative;
+        top: 6%;
+        left: 10%;
+        width: 250px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box4 {
+        position: relative;
+        top: 7%;
+        left: 10%;
+        width: 250px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box5 {
+        position: relative;
+        top: 8%;
+        left: 10%;
+        width: 250px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box6 {
+        position: relative;
+        top: 9%;
+        left: 10%;
+        width: 250px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box7 {
+        position: relative;
+        top: 10%;
+        left: 10%;
+        width: 250px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box8 {
+        position: relative;
+        top: 11%;
+        left: 10%;
+        width: 250px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+    /* SECTION 5 CONTAINING PARTICIPATION AND BENEFITS */
+    #info2 {
+        background-color: rgba(77, 110, 46, 0.253);
+        position: relative;
+        bottom: 345px;
+        width: 65%;
+        height: 1150px;
+        display: block;
     }
     
-    #beauty {
-        position: absolute;
-        font-style: italic;
-        font-size: 40px;
-        color: rgba(211, 211, 211, 0.726);
-        top: 115px;
-        left: 20%;
-    }
-
-    #viewDesign {
+    .participationBenefits {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
         position: relative;
-        bottom: 400px;
-        left: 75%;
-        text-align: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 18px;
-        padding: 20px 0;
-        color: rgba(255, 255, 255, 0.733);
-        background-color: rgba(255, 255, 255, 0.15);
-        height: 25px;
-        width: 200px;
+        top: 50px;
+        left: 12%;
+        width: 75%;
+    }
+    
+    .pbParagraph {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 20px;
+        top: 50px;
+        left: 12%;
+        width: 75%;
+        line-height: 1.5;
+    } 
+    /* SECTION 6 CONTAINING THE QUICK LINKS */
+    #infoLinks {
+        background-color: rgba(77, 110, 46, 0.322);
+        position: relative;
+        bottom: 1490px;
+        left: 65%;
+        width: 35%;
+        height: 1145px;
+        display: block;
     }
 
-    #info1 {
-        background-color: rgba(245, 251, 185, 0.205);
-        position: absolute;
-        top: 255px;
-        width: 64.5%;
-        height: 1210px;
+    .info-link {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        right: 45px;
+        font-size: 30px;
+        text-decoration: none;
+        color: rgba(10, 2, 2, 0.554);
+    }
+
+    .info-link:hover {
+        color: rgba(197, 147, 55, 0.726)
+    }
+
+    #anotherLink1 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+        
+    }
+    #anotherLink2 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink3 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink4 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink5 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }   
+    /* SECTION 6 REQUIRMENTS */
+    #requirments {
+        background-color: rgba(107, 96, 82, 0.123);
+        position: relative;
+        bottom: 1520px;
+        width: 65%;
+        height: 1300px;
         display: block; 
     }
-    
-    #para1 {
+    #require {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 40px;
+        position: relative;
+        top: 50px;
+        left: 12%;
+        width: 75%;
+    }
+    #finalParagraph {
         font-family: 'Courier New', Courier, monospace;
         position: relative;
-        top: 0px;
-        font-size: 18px;
+        font-size: 20px;
+        top: 30px;
         left: 12%;
         width: 75%;
         line-height: 2;
     }
-
-    #enlighten {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 38px;
+    /* SECTION 7 Blank */
+    #blankSpace {
+        background-color: rgba(54, 68, 41, 0.322);
         position: relative;
-        top: 0px;
-        left: 12%;
-        width: 75%;
+        bottom: 2820px;
+        left: 65%;
+        width: 35%;
+        height: 1300px;
+        display: block;
     }
-
-
-    #para2 {
-        font-family: 'Courier New', Courier, monospace;
+    #closing {
         position: relative;
-        font-size: 18px;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
+        color: green;
+        width: 100%;
+        height: 400px;
     }
-
-    #about {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 38px;
-        position: relative;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-    }
-
-    #para3 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        font-size: 18px;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-
 }
 @media only screen and (max-width: 1280px) {
 
@@ -466,15 +1078,15 @@
         position: absolute;
         top: 255px;
         width: 64.5%;
-        height: 1020px;
+        height: 1150px;
         display: block; 
     }
-    
+
     #para1 {
         font-family: 'Courier New', Courier, monospace;
         position: relative;
         top: 0px;
-        font-size: 15px;
+        font-size: 10px;
         left: 12%;
         width: 75%;
         line-height: 2;
@@ -482,7 +1094,7 @@
 
     #enlighten {
         font-family: 'Courier New', Courier, monospace;
-        font-size: 35px;
+        font-size: 30px;
         position: relative;
         top: 0px;
         left: 12%;
@@ -494,7 +1106,7 @@
     #para2 {
         font-family: 'Courier New', Courier, monospace;
         position: relative;
-        font-size: 15px;
+        font-size: 10px;
         top: 0px;
         left: 12%;
         width: 75%;
@@ -503,7 +1115,7 @@
 
     #about {
         font-family: 'Courier New', Courier, monospace;
-        font-size: 35px;
+        font-size: 30px;
         position: relative;
         top: 0px;
         left: 12%;
@@ -513,116 +1125,256 @@
     #para3 {
         font-family: 'Courier New', Courier, monospace;
         position: relative;
-        font-size: 15px;
+        font-size: 10px;
         top: 0px;
         left: 12%;
         width: 75%;
         line-height: 2;
     }
 
-}
-@media only screen and (max-width: 1230px) {
-
-    
-    #logo {
-        position: absolute;
-        top: 75px;
-        left: 8%;
-        height: 100px;
-        width: 100px;
+    /* SECTION 4 CONTSAINING THE PROJECT LINKS AND CREATORS */
+    #othersWork {
+    background-color: rgba(185, 207, 143, 0.431);
+    position: relative;
+    bottom: 320px;
+    left: 65%;
+    width: 35%;
+    height: 1150px;
+    display: block; 
     }
-    
-    #mainTitle {
+
+    .projectTitle1 {
         font-family: 'Courier New', Courier, monospace;
-        font-style: normal;
-        font-weight: 380;
-        font-size: 50px;
-        position: absolute;
-        color: rgba(255, 255, 255, 0.931);
-        top: 46px;
-        left: 20%;
-    }
-    
-    #beauty {
-        position: absolute;
-        font-style: italic;
-        font-size: 40px;
-        color: rgba(211, 211, 211, 0.726);
-        top: 115px;
-        left: 20%;
+        margin: 0px;
+        position: relative;
+        right: 5px;
+        font-size: 25px;
+        text-decoration: none;
+        color: rgba(53, 197, 48, 0.5);
     }
 
-    #viewDesign {
+    .projectTitle1:hover {
+        color: rgba(190, 147, 66, 0.452);
+    }
+
+    .projectTitle2:hover {
+        color: rgba(190, 147, 66, 0.452);
+    }
+
+    .projectTitle2 {
+        font-family: 'Courier New', Courier, monospace;
         position: relative;
-        bottom: 400px;
-        left: 75%;
-        text-align: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        right: 5px;
         font-size: 18px;
-        padding: 20px 0;
-        color: rgba(255, 255, 255, 0.733);
-        background-color: rgba(255, 255, 255, 0.15);
-        height: 25px;
-        width: 180px;
+        text-decoration: none;
+        color: rgba(53, 197, 48, 0.5);
     }
 
-    #info1 {
-        background-color: rgba(245, 251, 185, 0.205);
-        position: absolute;
-        top: 255px;
-        width: 64.5%;
-        height: 1050px;
-        display: block; 
+    #box1 {
+        position: relative;
+        top: 4%;
+        left: 10%;
+        width: 250px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box2 {
+        position: relative;
+        top: 5%;
+        left: 10%;
+        width: 250px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box3 {
+        position: relative;
+        top: 6%;
+        left: 10%;
+        width: 250px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box4 {
+        position: relative;
+        top: 7%;
+        left: 10%;
+        width: 250px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box5 {
+        position: relative;
+        top: 8%;
+        left: 10%;
+        width: 250px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box6 {
+        position: relative;
+        top: 9%;
+        left: 10%;
+        width: 250px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box7 {
+        position: relative;
+        top: 10%;
+        left: 10%;
+        width: 250px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box8 {
+        position: relative;
+        top: 11%;
+        left: 10%;
+        width: 250px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+    /* SECTION 5 CONTAINING PARTICIPATION AND BENEFITS */
+    #info2 {
+        background-color: rgba(77, 110, 46, 0.253);
+        position: relative;
+        bottom: 345px;
+        width: 65%;
+        height: 1150px;
+        display: block;
     }
     
-    #para1 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        top: 0px;
-        font-size: 10px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-
-    #enlighten {
+    .participationBenefits {
         font-family: 'Courier New', Courier, monospace;
         font-size: 30px;
         position: relative;
-        top: 0px;
+        top: 50px;
         left: 12%;
         width: 75%;
     }
-
-    #para2 {
+    
+    .pbParagraph {
         font-family: 'Courier New', Courier, monospace;
         position: relative;
-        font-size: 10px;
-        top: 0px;
+        font-size: 20px;
+        top: 50px;
         left: 12%;
         width: 75%;
-        line-height: 2;
+        line-height: 1.5;
+    } 
+    /* SECTION 6 CONTAINING THE QUICK LINKS */
+    #infoLinks {
+        background-color: rgba(77, 110, 46, 0.322);
+        position: relative;
+        bottom: 1490px;
+        left: 65%;
+        width: 35%;
+        height: 1145px;
+        display: block;
     }
 
-    #about {
+    .info-link {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        right: 45px;
+        font-size: 30px;
+        text-decoration: none;
+        color: rgba(10, 2, 2, 0.554);
+    }
+
+    .info-link:hover {
+        color: rgba(197, 147, 55, 0.726)
+    }
+
+    #anotherLink1 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+        
+    }
+    #anotherLink2 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink3 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink4 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink5 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }   
+    /* SECTION 6 REQUIRMENTS */
+    #requirments {
+        background-color: rgba(107, 96, 82, 0.123);
+        position: relative;
+        bottom: 1510px;
+        width: 65%;
+        height: 1550px;
+        display: block; 
+    }
+    #require {
         font-family: 'Courier New', Courier, monospace;
         font-size: 30px;
         position: relative;
-        top: 0px;
+        top: 50px;
         left: 12%;
         width: 75%;
     }
-
-    #para3 {
+    #finalParagraph {
         font-family: 'Courier New', Courier, monospace;
         position: relative;
-        font-size: 10px;
-        top: 0px;
+        font-size: 20px;
+        top: 30px;
         left: 12%;
         width: 75%;
         line-height: 2;
     }
-
+    /* SECTION 7 Blank */
+    #blankSpace {
+        background-color: rgba(54, 68, 41, 0.322);
+        position: relative;
+        bottom: 3060px;
+        left: 65%;
+        width: 35%;
+        height: 1550px;
+        display: block;
+    }  
 }
 @media only screen and (max-width: 1180px) {
     #logo {
@@ -672,10 +1424,10 @@
         position: absolute;
         top: 255px;
         width: 64.5%;
-        height: 1070px;
+        height: 1150px;
         display: block; 
     }
-    
+
     #para1 {
         font-family: 'Courier New', Courier, monospace;
         position: relative;
@@ -726,109 +1478,249 @@
         line-height: 2;
     }
 
-}
-@media only screen and (max-width: 1130px) {
-    #logo {
-        position: absolute;
-        top: 90px;
-        left: 8%;
-        height: 90px;
-        width: 90px;
-    }
-    
-    #mainTitle {
-        font-family: 'Courier New', Courier, monospace;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 42px;
-        position: absolute;
-        color: rgba(255, 255, 255, 0.931);
-        top: 70px;
-        left: 20%;
-    }
-    
-    #beauty {
-        position: absolute;
-        font-style: italic;
-        font-size: 32px;
-        color: rgba(211, 211, 211, 0.726);
-        top: 110px;
-        left: 20%;
+    /* SECTION 4 CONTSAINING THE PROJECT LINKS AND CREATORS */
+    #othersWork {
+    background-color: rgba(185, 207, 143, 0.431);
+    position: relative;
+    bottom: 320px;
+    left: 65%;
+    width: 35%;
+    height: 1150px;
+    display: block; 
     }
 
-    #viewDesign {
+    .projectTitle1 {
+        font-family: 'Courier New', Courier, monospace;
+        margin: 0px;
         position: relative;
-        bottom: 400px;
-        left: 75%;
-        text-align: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        right: 5px;
+        font-size: 25px;
+        text-decoration: none;
+        color: rgba(53, 197, 48, 0.5);
+    }
+
+    .projectTitle1:hover {
+        color: rgba(190, 147, 66, 0.452);
+    }
+
+    .projectTitle2:hover {
+        color: rgba(190, 147, 66, 0.452);
+    }
+
+    .projectTitle2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        right: 5px;
         font-size: 18px;
-        padding: 20px 0;
-        color: rgba(255, 255, 255, 0.733);
-        background-color: rgba(255, 255, 255, 0.15);
-        height: 25px;
-        width: 160px;
+        text-decoration: none;
+        color: rgba(53, 197, 48, 0.5);
     }
 
-    #info1 {
-        background-color: rgba(245, 251, 185, 0.205);
-        position: absolute;
-        top: 255px;
-        width: 64.5%;
-        height: 1070px;
-        display: block; 
+    #box1 {
+        position: relative;
+        top: 4%;
+        left: 10%;
+        width: 250px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box2 {
+        position: relative;
+        top: 5%;
+        left: 10%;
+        width: 250px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box3 {
+        position: relative;
+        top: 6%;
+        left: 10%;
+        width: 250px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box4 {
+        position: relative;
+        top: 7%;
+        left: 10%;
+        width: 250px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box5 {
+        position: relative;
+        top: 8%;
+        left: 10%;
+        width: 250px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box6 {
+        position: relative;
+        top: 9%;
+        left: 10%;
+        width: 250px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box7 {
+        position: relative;
+        top: 10%;
+        left: 10%;
+        width: 250px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box8 {
+        position: relative;
+        top: 11%;
+        left: 10%;
+        width: 250px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+    /* SECTION 5 CONTAINING PARTICIPATION AND BENEFITS */
+    #info2 {
+        background-color: rgba(77, 110, 46, 0.253);
+        position: relative;
+        bottom: 345px;
+        width: 65%;
+        height: 1150px;
+        display: block;
     }
     
-    #para1 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        top: 0px;
-        font-size: 10px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-
-    #enlighten {
+    .participationBenefits {
         font-family: 'Courier New', Courier, monospace;
         font-size: 30px;
         position: relative;
-        top: 0px;
+        top: 50px;
         left: 12%;
         width: 75%;
     }
-
-
-
-    #para2 {
+    
+    .pbParagraph {
         font-family: 'Courier New', Courier, monospace;
         position: relative;
-        font-size: 10px;
-        top: 0px;
+        font-size: 20px;
+        top: 50px;
         left: 12%;
         width: 75%;
-        line-height: 2;
+        line-height: 1.5;
+    } 
+    /* SECTION 6 CONTAINING THE QUICK LINKS */
+    #infoLinks {
+        background-color: rgba(77, 110, 46, 0.322);
+        position: relative;
+        bottom: 1490px;
+        left: 65%;
+        width: 35%;
+        height: 1145px;
+        display: block;
     }
 
-    #about {
+    .info-link {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        right: 45px;
+        font-size: 30px;
+        text-decoration: none;
+        color: rgba(10, 2, 2, 0.554);
+    }
+
+    .info-link:hover {
+        color: rgba(197, 147, 55, 0.726)
+    }
+
+    #anotherLink1 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+        
+    }
+    #anotherLink2 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink3 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink4 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink5 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }   
+    /* SECTION 6 REQUIRMENTS */
+    #requirments {
+        background-color: rgba(107, 96, 82, 0.123);
+        position: relative;
+        bottom: 1510px;
+        width: 65%;
+        height: 1550px;
+        display: block; 
+    }
+    #require {
         font-family: 'Courier New', Courier, monospace;
         font-size: 30px;
         position: relative;
-        top: 0px;
+        top: 50px;
         left: 12%;
         width: 75%;
     }
-
-    #para3 {
+    #finalParagraph {
         font-family: 'Courier New', Courier, monospace;
         position: relative;
-        font-size: 10px;
-        top: 0px;
+        font-size: 20px;
+        top: 30px;
         left: 12%;
         width: 75%;
         line-height: 2;
     }
-
+    /* SECTION 7 Blank */
+    #blankSpace {
+        background-color: rgba(54, 68, 41, 0.322);
+        position: relative;
+        bottom: 3060px;
+        left: 65%;
+        width: 35%;
+        height: 1550px;
+        display: block;
+    }  
 }
 @media only screen and (max-width: 1080px) {
     #logo {
@@ -879,10 +1771,10 @@
         position: absolute;
         top: 255px;
         width: 64.5%;
-        height: 1150px;
+        height: 1250px;
         display: block; 
     }
-    
+
     #para1 {
         font-family: 'Courier New', Courier, monospace;
         position: relative;
@@ -933,109 +1825,249 @@
         line-height: 2;
     }
 
-}
-@media only screen and (max-width: 1030px) {
-    #logo {
-        position: absolute;
-        top: 100px;
-        left: 8%;
-        height: 80px;
-        width: 80px;
-    }
-    
-    #mainTitle {
-        font-family: 'Courier New', Courier, monospace;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 34px;
-        position: absolute;
-        color: rgba(255, 255, 255, 0.931);
-        top: 95px;
-        left: 20%;
-    }
-    
-    #beauty {
-        position: absolute;
-        font-style: italic;
-        font-size: 24px;
-        color: rgba(211, 211, 211, 0.726);
-        top: 120px;
-        left: 20%;
+    /* SECTION 4 CONTSAINING THE PROJECT LINKS AND CREATORS */
+    #othersWork {
+    background-color: rgba(185, 207, 143, 0.431);
+    position: relative;
+    bottom: 320px;
+    left: 65%;
+    width: 35%;
+    height: 1250px;
+    display: block; 
     }
 
-    #viewDesign {
+    .projectTitle1 {
+        font-family: 'Courier New', Courier, monospace;
+        margin: 0px;
         position: relative;
-        bottom: 400px;
-        left: 75%;
-        text-align: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        right: 5px;
+        font-size: 25px;
+        text-decoration: none;
+        color: rgba(53, 197, 48, 0.5);
+    }
+
+    .projectTitle1:hover {
+        color: rgba(190, 147, 66, 0.452);
+    }
+
+    .projectTitle2:hover {
+        color: rgba(190, 147, 66, 0.452);
+    }
+
+    .projectTitle2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        right: 5px;
         font-size: 18px;
-        padding: 20px 0;
-        color: rgba(255, 255, 255, 0.733);
-        background-color: rgba(255, 255, 255, 0.15);
-        height: 25px;
-        width: 150px;
+        text-decoration: none;
+        color: rgba(53, 197, 48, 0.5);
     }
 
-    #info1 {
-        background-color: rgba(245, 251, 185, 0.205);
-        position: absolute;
-        top: 255px;
-        width: 64.5%;
-        height: 1200px;
-        display: block; 
+    #box1 {
+        position: relative;
+        top: 4%;
+        left: 12%;
+        width: 200px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box2 {
+        position: relative;
+        top: 5%;
+        left: 12%;
+        width: 200px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box3 {
+        position: relative;
+        top: 6%;
+        left: 12%;
+        width: 200px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box4 {
+        position: relative;
+        top: 7%;
+        left: 12%;
+        width: 200px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box5 {
+        position: relative;
+        top: 8%;
+        left: 12%;
+        width: 200px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box6 {
+        position: relative;
+        top: 9%;
+        left: 12%;
+        width: 200px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box7 {
+        position: relative;
+        top: 10%;
+        left: 12%;
+        width: 200px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box8 {
+        position: relative;
+        top: 11%;
+        left: 12%;
+        width: 200px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+    /* SECTION 5 CONTAINING PARTICIPATION AND BENEFITS */
+    #info2 {
+        background-color: rgba(77, 110, 46, 0.253);
+        position: relative;
+        bottom: 345px;
+        width: 65%;
+        height: 1250px;
+        display: block;
     }
     
-    #para1 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        top: 0px;
-        font-size: 10px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-
-    #enlighten {
+    .participationBenefits {
         font-family: 'Courier New', Courier, monospace;
         font-size: 30px;
         position: relative;
-        top: 0px;
+        top: 50px;
         left: 12%;
         width: 75%;
     }
-
-
-
-    #para2 {
+    
+    .pbParagraph {
         font-family: 'Courier New', Courier, monospace;
         position: relative;
-        font-size: 10px;
-        top: 0px;
+        font-size: 20px;
+        top: 50px;
         left: 12%;
         width: 75%;
-        line-height: 2;
+        line-height: 1.5;
+    } 
+    /* SECTION 6 CONTAINING THE QUICK LINKS */
+    #infoLinks {
+        background-color: rgba(77, 110, 46, 0.322);
+        position: relative;
+        bottom: 1590px;
+        left: 65%;
+        width: 35%;
+        height: 1245px;
+        display: block;
     }
 
-    #about {
+    .info-link {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        right: 45px;
+        font-size: 30px;
+        text-decoration: none;
+        color: rgba(10, 2, 2, 0.554);
+    }
+
+    .info-link:hover {
+        color: rgba(197, 147, 55, 0.726)
+    }
+
+    #anotherLink1 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+        
+    }
+    #anotherLink2 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink3 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink4 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink5 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }   
+    /* SECTION 6 REQUIRMENTS */
+    #requirments {
+        background-color: rgba(107, 96, 82, 0.123);
+        position: relative;
+        bottom: 1610px;
+        width: 65%;
+        height: 1750px;
+        display: block; 
+    }
+    #require {
         font-family: 'Courier New', Courier, monospace;
         font-size: 30px;
         position: relative;
-        top: 0px;
+        top: 50px;
         left: 12%;
         width: 75%;
     }
-
-    #para3 {
+    #finalParagraph {
         font-family: 'Courier New', Courier, monospace;
         position: relative;
-        font-size: 10px;
-        top: 0px;
+        font-size: 20px;
+        top: 30px;
         left: 12%;
         width: 75%;
         line-height: 2;
     }
-
+    /* SECTION 7 Blank */
+    #blankSpace {
+        background-color: rgba(54, 68, 41, 0.322);
+        position: relative;
+        bottom: 3360px;
+        left: 65%;
+        width: 35%;
+        height: 1750px;
+        display: block;
+    }  
 }
 @media only screen and (max-width: 980px) { 
     #logo {
@@ -1085,10 +2117,10 @@
         position: absolute;
         top: 255px;
         width: 64.5%;
-        height: 1200px;
+        height: 1250px;
         display: block; 
     }
-    
+
     #para1 {
         font-family: 'Courier New', Courier, monospace;
         position: relative;
@@ -1101,828 +2133,7 @@
 
     #enlighten {
         font-family: 'Courier New', Courier, monospace;
-        font-size: 30px;
-        position: relative;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-    }
-
-
-
-    #para2 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        font-size: 10px;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-
-    #about {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 30px;
-        position: relative;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-    }
-
-    #para3 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        font-size: 10px;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-
-}
-@media only screen and (max-width: 930px) {
-    #logo {
-        position: absolute;
-        top: 100px;
-        left: 8%;
-        height: 75px;
-        width: 75px;
-    }
-    
-    #mainTitle {
-        font-family: 'Courier New', Courier, monospace;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 28px;
-        position: absolute;
-        color: rgba(255, 255, 255, 0.931);
-        top: 95px;
-        left: 20%;
-    }
-    
-    #beauty {
-        position: absolute;
-        font-style: italic;
-        font-size: 18px;
-        color: rgba(211, 211, 211, 0.726);
-        top: 125px;
-        left: 20%;
-    }
-
-    #viewDesign {
-        position: relative;
-        bottom: 400px;
-        left: 75%;
-        text-align: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 18px;
-        padding: 20px 0;
-        color: rgba(255, 255, 255, 0.733);
-        background-color: rgba(255, 255, 255, 0.15);
-        height: 25px;
-        width: 140px;
-    }
-    #info1 {
-        background-color: rgba(245, 251, 185, 0.205);
-        position: absolute;
-        top: 255px;
-        width: 64.5%;
-        height: 1380px;
-        display: block; 
-    }
-    
-    #para1 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        top: 0px;
-        font-size: 10px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-
-    #enlighten {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 30px;
-        position: relative;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-    }
-
-
-
-    #para2 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        font-size: 10px;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-
-    #about {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 30px;
-        position: relative;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-    }
-
-    #para3 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        font-size: 10px;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-
-}
-@media only screen and (max-width: 880px) {    
-#logo {
-    position: absolute;
-    top: 100px;
-    left: 8%;
-    height: 75px;
-    width: 75px;
-}
-
-#mainTitle {
-    font-family: 'Courier New', Courier, monospace;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    position: absolute;
-    color: rgba(255, 255, 255, 0.931);
-    top: 90px;
-    left: 20%;
-}
-
-#beauty {
-    position: absolute;
-    font-style: italic;
-    font-size: 18px;
-    color: rgba(211, 211, 211, 0.726);
-    top: 125px;
-    left: 20%;
-}
-
-#viewDesign {
-    position: relative;
-    bottom: 400px;
-    left: 75%;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
-    padding: 20px 0;
-    color: rgba(255, 255, 255, 0.733);
-    background-color: rgba(255, 255, 255, 0.15);
-    height: 25px;
-    width: 140px;
-}
-
-#info1 {
-    background-color: rgba(245, 251, 185, 0.205);
-    position: absolute;
-    top: 255px;
-    width: 64.5%;
-    height: 1440px;
-    display: block; 
-}
-
-#para1 {
-    font-family: 'Courier New', Courier, monospace;
-    position: relative;
-    top: 0px;
-    font-size: 10px;
-    left: 12%;
-    width: 75%;
-    line-height: 2;
-}
-
-#enlighten {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-    position: relative;
-    top: 0px;
-    left: 12%;
-    width: 75%;
-}
-
-
-
-#para2 {
-    font-family: 'Courier New', Courier, monospace;
-    position: relative;
-    font-size: 10px;
-    top: 0px;
-    left: 12%;
-    width: 75%;
-    line-height: 2;
-}
-
-#about {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-    position: relative;
-    top: 0px;
-    left: 12%;
-    width: 75%;
-}
-
-#para3 {
-    font-family: 'Courier New', Courier, monospace;
-    position: relative;
-    font-size: 10px;
-    top: 0px;
-    left: 12%;
-    width: 75%;
-    line-height: 2;
-}
-
-}
-@media only screen and (max-width: 830px) {    
-#logo {
-    position: absolute;
-    top: 100px;
-    left: 8%;
-    height: 75px;
-    width: 75px;
-}
-
-#mainTitle {
-    font-family: 'Courier New', Courier, monospace;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    position: absolute;
-    color: rgba(255, 255, 255, 0.931);
-    top: 90px;
-    left: 20%;
-}
-
-#beauty {
-    position: absolute;
-    font-style: italic;
-    font-size: 18px;
-    color: rgba(211, 211, 211, 0.726);
-    top: 125px;
-    left: 20%;
-}
-
-#viewDesign {
-    position: relative;
-    bottom: 400px;
-    left: 75%;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
-    padding: 20px 0;
-    color: rgba(255, 255, 255, 0.733);
-    background-color: rgba(255, 255, 255, 0.15);
-    height: 25px;
-    width: 140px;
-}
-
-#info1 {
-    background-color: rgba(245, 251, 185, 0.205);
-    position: absolute;
-    top: 255px;
-    width: 64.5%;
-    height: 1500px;
-    display: block; 
-}
-
-#para1 {
-    font-family: 'Courier New', Courier, monospace;
-    position: relative;
-    top: 0px;
-    font-size: 10px;
-    left: 12%;
-    width: 75%;
-    line-height: 2;
-}
-
-#enlighten {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-    position: relative;
-    top: 0px;
-    left: 12%;
-    width: 75%;
-}
-
-
-
-#para2 {
-    font-family: 'Courier New', Courier, monospace;
-    position: relative;
-    font-size: 10px;
-    top: 0px;
-    left: 12%;
-    width: 75%;
-    line-height: 2;
-}
-
-#about {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-    position: relative;
-    top: 0px;
-    left: 12%;
-    width: 75%;
-}
-
-#para3 {
-    font-family: 'Courier New', Courier, monospace;
-    position: relative;
-    font-size: 10px;
-    top: 0px;
-    left: 12%;
-    width: 75%;
-    line-height: 2;
-}
-
-}
-@media only screen and (max-width: 800px) {
-    #logo {
-        position: absolute;
-        top: 100px;
-        left: 6%;
-        height: 75px;
-        width: 75px;
-    }
-    
-    #mainTitle {
-        font-family: 'Courier New', Courier, monospace;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 28px;
-        position: absolute;
-        color: rgba(255, 255, 255, 0.931);
-        top: 90px;
-        left: 20%;
-    }
-    
-    #beauty {
-        position: absolute;
-        font-style: italic;
-        font-size: 18px;
-        color: rgba(211, 211, 211, 0.726);
-        top: 125px;
-        left: 20%;
-    }
-
-    #viewDesign {
-        position: relative;
-        bottom: 400px;
-        left: 75%;
-        text-align: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 18px;
-        padding: 20px 0;
-        color: rgba(255, 255, 255, 0.733);
-        background-color: rgba(255, 255, 255, 0.15);
-        height: 25px;
-        width: 85px;
-    }
-
-    #info1 {
-        background-color: rgba(245, 251, 185, 0.205);
-        position: absolute;
-        top: 255px;
-        width: 64.5%;
-        height: 1520px;
-        display: block; 
-    }
-    
-    #para1 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        top: 0px;
-        font-size: 10px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-
-    #enlighten {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 30px;
-        position: relative;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-    }
-
-
-
-    #para2 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        font-size: 10px;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-
-    #about {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 30px;
-        position: relative;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-    }
-
-    #para3 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        font-size: 10px;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-
-}
-@media only screen and (max-width: 770px) {
-    #logo {
-        position: absolute;
-        top: 100px;
-        left: 6%;
-        height: 75px;
-        width: 75px;
-    }
-    
-    #mainTitle {
-        font-family: 'Courier New', Courier, monospace;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 28px;
-        position: absolute;
-        color: rgba(255, 255, 255, 0.931);
-        top: 90px;
-        left: 20%;
-    }
-    
-    #beauty {
-        position: absolute;
-        font-style: italic;
-        font-size: 18px;
-        color: rgba(211, 211, 211, 0.726);
-        top: 125px;
-        left: 20%;
-    }
-
-    #viewDesign {
-        position: relative;
-        bottom: 400px;
-        left: 75%;
-        text-align: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 18px;
-        padding: 20px 0;
-        color: rgba(255, 255, 255, 0.733);
-        background-color: rgba(255, 255, 255, 0.15);
-        height: 25px;
-        width: 85px;
-    }
-
-    #info1 {
-        background-color: rgba(245, 251, 185, 0.205);
-        position: absolute;
-        top: 255px;
-        width: 64.5%;
-        height: 1630px;
-        display: block; 
-    }
-    
-    #para1 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        top: 0px;
-        font-size: 10px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-
-    #enlighten {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 30px;
-        position: relative;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-    }
-
-
-
-    #para2 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        font-size: 10px;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-
-    #about {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 30px;
-        position: relative;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-    }
-
-    #para3 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        font-size: 10px;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-
-}
-@media only screen and (max-width: 740px) {
-    #logo {
-        position: absolute;
-        top: 100px;
-        left: 6%;
-        height: 75px;
-        width: 75px;
-    }
-    
-    #mainTitle {
-        font-family: 'Courier New', Courier, monospace;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 28px;
-        position: absolute;
-        color: rgba(255, 255, 255, 0.931);
-        top: 90px;
-        left: 20%;
-    }
-    
-    #beauty {
-        position: absolute;
-        font-style: italic;
-        font-size: 18px;
-        color: rgba(211, 211, 211, 0.726);
-        top: 125px;
-        left: 20%;
-    }
-
-    #viewDesign {
-        position: relative;
-        bottom: 400px;
-        left: 75%;
-        text-align: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 18px;
-        padding: 20px 0;
-        color: rgba(255, 255, 255, 0.733);
-        background-color: rgba(255, 255, 255, 0.15);
-        height: 25px;
-        width: 85px;
-    }
-
-    #info1 {
-        background-color: rgba(245, 251, 185, 0.205);
-        position: absolute;
-        top: 255px;
-        width: 64.5%;
-        height: 1650px;
-        display: block; 
-    }
-    
-    #para1 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        top: 0px;
-        font-size: 10px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-
-    #enlighten {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 30px;
-        position: relative;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-    }
-
-    #para2 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        font-size: 10px;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-
-    #about {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 30px;
-        position: relative;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-    }
-
-    #para3 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        font-size: 10px;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-
-}
-@media only screen and (max-width: 710px) {
-    #logo {
-        position: absolute;
-        top: 100px;
-        left: 6%;
-        height: 75px;
-        width: 75px;
-    }
-    
-    #mainTitle {
-        font-family: 'Courier New', Courier, monospace;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 28px;
-        position: absolute;
-        color: rgba(255, 255, 255, 0.931);
-        top: 90px;
-        left: 20%;
-    }
-    
-    #beauty {
-        position: absolute;
-        font-style: italic;
-        font-size: 18px;
-        color: rgba(211, 211, 211, 0.726);
-        top: 125px;
-        left: 20%;
-    }
-
-    #viewDesign {
-        position: relative;
-        bottom: 400px;
-        left: 75%;
-        text-align: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 18px;
-        padding: 20px 0;
-        color: rgba(255, 255, 255, 0.733);
-        background-color: rgba(255, 255, 255, 0.15);
-        height: 25px;
-        width: 85px;
-    }
-
-    #info1 {
-        background-color: rgba(245, 251, 185, 0.205);
-        position: absolute;
-        top: 255px;
-        width: 64.5%;
-        height: 1650px;
-        display: block; 
-    }
-    
-    #para1 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        top: 0px;
-        font-size: 10px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-
-    #enlighten {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 30px;
-        position: relative;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-    }
-
-
-
-    #para2 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        font-size: 10px;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-
-    #about {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 30px;
-        position: relative;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-    }
-
-    #para3 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        font-size: 10px;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-
-}
-@media only screen and (max-width: 680px) {
-    #logo {
-        position: absolute;
-        top: 100px;
-        left: 6%;
-        height: 70px;
-        width: 70px;
-    }
-    
-    #mainTitle {
-        font-family: 'Courier New', Courier, monospace;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 25px;
-        position: absolute;
-        color: rgba(255, 255, 255, 0.931);
-        top: 90px;
-        left: 20%;
-    }
-    
-    #beauty {
-        position: absolute;
-        font-style: italic;
         font-size: 15px;
-        color: rgba(211, 211, 211, 0.726);
-        top: 125px;
-        left: 20%;
-    }
-
-    #viewDesign {
-        position: relative;
-        bottom: 400px;
-        left: 75%;
-        text-align: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 18px;
-        padding: 20px 0;
-        color: rgba(255, 255, 255, 0.733);
-        background-color: rgba(255, 255, 255, 0.15);
-        height: 25px;
-        width: 85px;
-    }
-
-    #info1 {
-        background-color: rgba(245, 251, 185, 0.205);
-        position: absolute;
-        top: 255px;
-        width: 64.5%;
-        height: 1790px;
-        display: block; 
-    }
-    
-    #para1 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        top: 0px;
-        font-size: 10px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-
-    #enlighten {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 30px;
         position: relative;
         top: 0px;
         left: 12%;
@@ -1943,7 +2154,7 @@
 
     #about {
         font-family: 'Courier New', Courier, monospace;
-        font-size: 30px;
+        font-size: 15px;
         position: relative;
         top: 0px;
         left: 12%;
@@ -1960,63 +2171,307 @@
         line-height: 2;
     }
 
-}
-@media only screen and (max-width: 650px) {
-    #logo {
-        position: absolute;
-        top: 100px;
-        left: 6%;
-        height: 65px;
-        width: 65px;
-    }
-    
-    #mainTitle {
-        font-family: 'Courier New', Courier, monospace;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        position: absolute;
-        color: rgba(255, 255, 255, 0.931);
-        top: 90px;
-        left: 20%;
-    }
-    
-    #beauty {
-        position: absolute;
-        font-style: italic;
-        font-size: 14px;
-        color: rgba(211, 211, 211, 0.726);
-        top: 120px;
-        left: 20%;
+   /* SECTION 4 CONTSAINING THE PROJECT LINKS AND CREATORS */
+    #othersWork {
+        background-color: rgba(185, 207, 143, 0.431);
+        position: relative;
+        bottom: 320px;
+        left: 65%;
+        width: 35%;
+        height: 1250px;
+        display: block; 
     }
 
-    #viewDesign {
+    .projectTitle1 {
+        font-family: 'Courier New', Courier, monospace;
+        margin: 0px;
         position: relative;
-        bottom: 400px;
-        left: 75%;
-        text-align: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 18px;
-        padding: 20px 0;
-        color: rgba(255, 255, 255, 0.733);
-        background-color: rgba(255, 255, 255, 0.15);
-        height: 20px;
-        width: 80px;
+        right: 5px;
+        font-size: 25px;
+        text-decoration: none;
+        color: rgba(53, 197, 48, 0.5);
     }
-    #info1 {
-        background-color: rgba(245, 251, 185, 0.205);
-        position: absolute;
-        top: 255px;
-        width: 64.5%;
+
+    .projectTitle1:hover {
+        color: rgba(190, 147, 66, 0.452);
+    }
+
+    .projectTitle2:hover {
+        color: rgba(190, 147, 66, 0.452);
+    }
+
+    .projectTitle2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        right: 5px;
+        font-size: 18px;
+        text-decoration: none;
+        color: rgba(53, 197, 48, 0.5);
+    }
+
+    #box1 {
+        position: relative;
+        top: 4%;
+        left: 12%;
+        width: 200px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box2 {
+        position: relative;
+        top: 5%;
+        left: 12%;
+        width: 200px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box3 {
+        position: relative;
+        top: 6%;
+        left: 12%;
+        width: 200px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box4 {
+        position: relative;
+        top: 7%;
+        left: 12%;
+        width: 200px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box5 {
+        position: relative;
+        top: 8%;
+        left: 12%;
+        width: 200px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box6 {
+        position: relative;
+        top: 9%;
+        left: 12%;
+        width: 200px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box7 {
+        position: relative;
+        top: 10%;
+        left: 12%;
+        width: 200px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box8 {
+        position: relative;
+        top: 11%;
+        left: 12%;
+        width: 200px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+    /* SECTION 5 CONTAINING PARTICIPATION AND BENEFITS */
+    #info2 {
+        background-color: rgba(77, 110, 46, 0.253);
+        position: relative;
+        bottom: 345px;
+        width: 65%;
+        height: 1380px;
+        display: block;
+    }
+    
+    .participationBenefits {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 50px;
+        left: 12%;
+        width: 75%;
+    }
+    
+    .pbParagraph {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 20px;
+        top: 50px;
+        left: 12%;
+        width: 75%;
+        line-height: 1.5;
+    } 
+    /* SECTION 6 CONTAINING THE QUICK LINKS */
+    #infoLinks {
+        background-color: rgba(77, 110, 46, 0.322);
+        position: relative;
+        bottom: 1720px;
+        left: 65%;
+        width: 35%;
+        height: 1375px;
+        display: block;
+    }
+
+    .info-link {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        right: 45px;
+        font-size: 30px;
+        text-decoration: none;
+        color: rgba(10, 2, 2, 0.554);
+    }
+
+    .info-link:hover {
+        color: rgba(197, 147, 55, 0.726)
+    }
+
+    #anotherLink1 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+        
+    }
+    #anotherLink2 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink3 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink4 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink5 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    } 
+    /* SECTION 6 REQUIRMENTS */
+    #requirments {
+        background-color: rgba(107, 96, 82, 0.123);
+        position: relative;
+        bottom: 1740px;
+        width: 65%;
         height: 1850px;
         display: block; 
     }
+    #require {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 50px;
+        left: 12%;
+        width: 75%;
+    }
+    #finalParagraph {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 20px;
+        top: 30px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+    /* SECTION 7 Blank */
+    #blankSpace {
+        background-color: rgba(54, 68, 41, 0.322);
+        position: relative;
+        bottom: 3590px;
+        left: 65%;
+        width: 35%;
+        height: 1850px;
+        display: block;
+    }  
+}
+@media only screen and (max-width: 880px) {
+    #logo {
+        position: absolute;
+        top: 100px;
+        left: 6%;
+        height: 75px;
+        width: 75px;
+    }
+    
+    #mainTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.931);
+        top: 90px;
+        left: 20%;
+    }
+    
+    #beauty {
+        position: absolute;
+        font-style: italic;
+        font-size: 18px;
+        color: rgba(211, 211, 211, 0.726);
+        top: 125px;
+        left: 20%;
+    }
+
+    #viewDesign {
+        position: relative;
+        bottom: 400px;
+        left: 75%;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        padding: 20px 0;
+        color: rgba(255, 255, 255, 0.733);
+        background-color: rgba(255, 255, 255, 0.15);
+        height: 25px;
+        width: 85px;
+    }
+
+    #info1 {
+        background-color: rgba(245, 251, 185, 0.205);
+        position: absolute;
+        top: 255px;
+        width: 64.5%;
+        height: 1650px;
+        display: block; 
+    }
     
     #para1 {
         font-family: 'Courier New', Courier, monospace;
         position: relative;
         top: 0px;
-        font-size: 10px;
+        font-size: 9px;
         left: 12%;
         width: 75%;
         line-height: 2;
@@ -2036,7 +2491,7 @@
     #para2 {
         font-family: 'Courier New', Courier, monospace;
         position: relative;
-        font-size: 10px;
+        font-size: 9px;
         top: 0px;
         left: 12%;
         width: 75%;
@@ -2055,15 +2510,600 @@
     #para3 {
         font-family: 'Courier New', Courier, monospace;
         position: relative;
+        font-size: 9px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+   /* SECTION 4 CONTSAINING THE PROJECT LINKS AND CREATORS */
+    #othersWork {
+        background-color: rgba(185, 207, 143, 0.431);
+        position: relative;
+        bottom: 320px;
+        left: 65%;
+        width: 35%;
+        height: 1650px;
+        display: block; 
+    }
+ 
+    .projectTitle1 {
+        font-family: 'Courier New', Courier, monospace;
+        margin: 0px;
+        position: relative;
+        right: 5px;
+        font-size: 25px;
+        text-decoration: none;
+        color: rgba(53, 197, 48, 0.5);
+    }
+
+    .projectTitle1:hover {
+        color: rgba(190, 147, 66, 0.452);
+    }
+
+    .projectTitle2:hover {
+        color: rgba(190, 147, 66, 0.452);
+    }
+
+    .projectTitle2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        right: 5px;
+        font-size: 18px;
+        text-decoration: none;
+        color: rgba(53, 197, 48, 0.5);
+    }
+
+    #box1 {
+        position: relative;
+        top: 4%;
+        left: 25%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box2 {
+        position: relative;
+        top: 5%;
+        left: 25%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box3 {
+        position: relative;
+        top: 6%;
+        left: 25%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box4 {
+        position: relative;
+        top: 7%;
+        left: 25%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box5 {
+        position: relative;
+        top: 8%;
+        left: 25%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box6 {
+        position: relative;
+        top: 9%;
+        left: 25%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box7 {
+        position: relative;
+        top: 10%;
+        left: 25%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box8 {
+        position: relative;
+        top: 11%;
+        left: 25%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+    /* SECTION 5 CONTAINING PARTICIPATION AND BENEFITS */
+    #info2 {
+        background-color: rgba(77, 110, 46, 0.253);
+        position: relative;
+        bottom: 345px;
+        width: 65%;
+        height: 1380px;
+        display: block;
+    }
+    
+    .participationBenefits {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 50px;
+        left: 12%;
+        width: 75%;
+    }
+    
+    .pbParagraph {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 18px;
+        top: 50px;
+        left: 12%;
+        width: 75%;
+        line-height: 1.5;
+    }        
+    /* SECTION 6 CONTAINING THE QUICK LINKS */
+    #infoLinks {
+        background-color: rgba(77, 110, 46, 0.322);
+        position: relative;
+        bottom: 1720px;
+        left: 65%;
+        width: 35%;
+        height: 1375px;
+        display: block;
+    }
+
+    .info-link {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        right: 45px;
+        font-size: 25px;
+        text-decoration: none;
+        color: rgba(10, 2, 2, 0.554);
+    }
+
+    .info-link:hover {
+        color: rgba(197, 147, 55, 0.726)
+    }
+
+    #anotherLink1 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+        
+    }
+    #anotherLink2 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink3 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink4 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink5 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }   
+    /* SECTION 6 REQUIRMENTS */
+    #requirments {
+        background-color: rgba(107, 96, 82, 0.123);
+        position: relative;
+        bottom: 1735px;
+        width: 65%;
+        height: 1400px;
+        display: block; 
+    }
+    #require {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        position: relative;
+        top: 50px;
+        left: 12%;
+        width: 75%;
+    }
+    #finalParagraph {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
         font-size: 10px;
+        top: 30px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+    /* SECTION 7 Blank */
+    #blankSpace {
+        background-color: rgba(54, 68, 41, 0.322);
+        position: relative;
+        bottom: 3135px;
+        left: 65%;
+        width: 35%;
+        height: 1400px;
+        display: block;
+    }
+}
+@media only screen and (max-width: 780px) {
+    #logo {
+        position: absolute;
+        top: 100px;
+        left: 6%;
+        height: 75px;
+        width: 75px;
+    }
+    
+    #mainTitle {
+        font-family: 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        position: absolute;
+        color: rgba(255, 255, 255, 0.931);
+        top: 90px;
+        left: 20%;
+    }
+    
+    #beauty {
+        position: absolute;
+        font-style: italic;
+        font-size: 18px;
+        color: rgba(211, 211, 211, 0.726);
+        top: 125px;
+        left: 20%;
+    }
+
+    #viewDesign {
+        position: relative;
+        bottom: 400px;
+        left: 75%;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        padding: 20px 0;
+        color: rgba(255, 255, 255, 0.733);
+        background-color: rgba(255, 255, 255, 0.15);
+        height: 25px;
+        width: 85px;
+    }
+
+    #info1 {
+        background-color: rgba(245, 251, 185, 0.205);
+        position: absolute;
+        top: 255px;
+        width: 64.5%;
+        height: 1650px;
+        display: block; 
+    }
+    
+    #para1 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        top: 0px;
+        font-size: 9px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #enlighten {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 9px;
         top: 0px;
         left: 12%;
         width: 75%;
         line-height: 2;
     }
 
+    #about {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+        position: relative;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+    }
+
+    #para3 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 9px;
+        top: 0px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+
+    #othersWork {
+        background-color: rgba(185, 207, 143, 0.431);
+        position: relative;
+        bottom: 320px;
+        left: 65%;
+        width: 35%;
+        height: 1650px;
+        display: block; 
+    }
+    /* SECTION 4 CONTSAINING THE PROJECT LINKS AND CREATORS */
+    .projectTitle1 {
+        font-family: 'Courier New', Courier, monospace;
+        margin: 0px;
+        position: relative;
+        right: 5px;
+        font-size: 25px;
+        text-decoration: none;
+        color: rgba(53, 197, 48, 0.5);
+    }
+
+    .projectTitle1:hover {
+        color: rgba(190, 147, 66, 0.452);
+    }
+
+    .projectTitle2:hover {
+        color: rgba(190, 147, 66, 0.452);
+    }
+
+    .projectTitle2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        right: 5px;
+        font-size: 18px;
+        text-decoration: none;
+        color: rgba(53, 197, 48, 0.5);
+    }
+
+    #box1 {
+        position: relative;
+        top: 4%;
+        left: 20%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box2 {
+        position: relative;
+        top: 5%;
+        left: 20%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box3 {
+        position: relative;
+        top: 6%;
+        left: 20%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box4 {
+        position: relative;
+        top: 7%;
+        left: 20%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box5 {
+        position: relative;
+        top: 8%;
+        left: 20%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box6 {
+        position: relative;
+        top: 9%;
+        left: 20%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box7 {
+        position: relative;
+        top: 10%;
+        left: 20%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box8 {
+        position: relative;
+        top: 11%;
+        left: 20%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+    /* SECTION 5 CONTAINING PARTICIPATION AND BENEFITS */
+    #info2 {
+        background-color: rgba(77, 110, 46, 0.253);
+        position: relative;
+        bottom: 345px;
+        width: 65%;
+        height: 1420px;
+        display: block;
+    }
+    
+    .participationBenefits {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        position: relative;
+        top: 50px;
+        left: 12%;
+        width: 75%;
+    }
+    
+    .pbParagraph {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 18px;
+        top: 50px;
+        left: 12%;
+        width: 75%;
+        line-height: 1.5;
+    }  
+    /* SECTION 6 CONTAINING THE QUICK LINKS */
+    #infoLinks {
+        background-color: rgba(77, 110, 46, 0.322);
+        position: relative;
+        bottom: 1760px;
+        left: 65%;
+        width: 35%;
+        height: 1415px;
+        display: block;
+    }
+
+    .info-link {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        right: 45px;
+        font-size: 20px;
+        text-decoration: none;
+        color: rgba(10, 2, 2, 0.554);
+    }
+
+    .info-link:hover {
+        color: rgba(197, 147, 55, 0.726)
+    }
+
+    #anotherLink1 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+        
+    }
+    #anotherLink2 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink3 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink4 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink5 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }  
+    /* SECTION 6 REQUIRMENTS */
+    #requirments {
+        background-color: rgba(107, 96, 82, 0.123);
+        position: relative;
+        bottom: 1780px;
+        width: 65%;
+        height: 1900px;
+        display: block; 
+        }
+        #require {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            position: relative;
+            top: 50px;
+            left: 12%;
+            width: 75%;
+        }
+        #finalParagraph {
+            font-family: 'Courier New', Courier, monospace;
+            position: relative;
+            font-size: 10px;
+            top: 30px;
+            left: 12%;
+            width: 75%;
+            line-height: 2;
+        }
+        /* SECTION 7 Blank */
+        #blankSpace {
+            background-color: rgba(54, 68, 41, 0.322);
+            position: relative;
+            bottom: 3680px;
+            left: 65%;
+            width: 35%;
+            height: 1900px;
+            display: block;
+        }
 }
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 680px) {
     #logo {
         position: absolute;
         top: 100px;
@@ -2119,7 +3159,7 @@
         font-family: 'Courier New', Courier, monospace;
         position: relative;
         top: 0px;
-        font-size: 10px;
+        font-size: 9px;
         left: 12%;
         width: 75%;
         line-height: 2;
@@ -2127,7 +3167,7 @@
 
     #enlighten {
         font-family: 'Courier New', Courier, monospace;
-        font-size: 30px;
+        font-size: 15px;
         position: relative;
         top: 0px;
         left: 12%;
@@ -2139,7 +3179,7 @@
     #para2 {
         font-family: 'Courier New', Courier, monospace;
         position: relative;
-        font-size: 10px;
+        font-size: 9px;
         top: 0px;
         left: 12%;
         width: 75%;
@@ -2148,7 +3188,7 @@
 
     #about {
         font-family: 'Courier New', Courier, monospace;
-        font-size: 30px;
+        font-size: 15px;
         position: relative;
         top: 0px;
         left: 12%;
@@ -2158,119 +3198,257 @@
     #para3 {
         font-family: 'Courier New', Courier, monospace;
         position: relative;
-        font-size: 10px;
+        font-size: 9px;
         top: 0px;
         left: 12%;
         width: 75%;
         line-height: 2;
     }
 
-    
-    }
-@media only screen and (max-width: 590px) {
-    #logo {
-        position: absolute;
-        top: 100px;
-        left: 6%;
-        height: 60px;
-        width: 60px;
-    }
-    
-    #mainTitle {
-        font-family: 'Courier New', Courier, monospace;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 22px;
-        position: absolute;
-        color: rgba(255, 255, 255, 0.931);
-        top: 90px;
-        left: 20%;
-    }
-    
-    #beauty {
-        position: absolute;
-        font-style: italic;
-        font-size: 12px;
-        color: rgba(211, 211, 211, 0.726);
-        top: 120px;
-        left: 20%;
-    }
-
-    #viewDesign {
+    #othersWork {
+        background-color: rgba(185, 207, 143, 0.534);
         position: relative;
-        bottom: 400px;
-        left: 75%;
-        text-align: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 18px;
-        padding: 20px 0;
-        color: rgba(255, 255, 255, 0.733);
-        background-color: rgba(255, 255, 255, 0.15);
-        height: 20px;
-        width: 70px;
-    }
-    #info1 {
-        background-color: rgba(245, 251, 185, 0.205);
-        position: absolute;
-        top: 255px;
-        width: 64.5%;
-        height: 2060px;
+        bottom: 320px;
+        left: 65%;
+        width: 35%;
+        height: 1940px;
         display: block; 
+    }  
+      /* SECTION 4 CONTSAINING THE PROJECT LINKS AND CREATORS */
+    .projectTitle1 {
+        font-family: 'Courier New', Courier, monospace;
+        margin: 0px;
+        position: relative;
+        right: 5px;
+        font-size: 25px;
+        text-decoration: none;
+        color: rgba(53, 197, 48, 0.5);
     }
     
-    #para1 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        top: 0px;
-        font-size: 10px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
+    .projectTitle1:hover {
+        color: rgba(190, 147, 66, 0.452);
     }
-
-    #enlighten {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 30px;
-        position: relative;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-    }
-
-
-
-    #para2 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        font-size: 10px;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-
-    #about {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 30px;
-        position: relative;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-    }
-
-    #para3 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        font-size: 10px;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-
     
+    .projectTitle2:hover {
+        color: rgba(190, 147, 66, 0.452);
     }
-@media only screen and (max-width: 560px) {
+    
+    .projectTitle2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        right: 5px;
+        font-size: 18px;
+        text-decoration: none;
+        color: rgba(53, 197, 48, 0.5);
+    }
+    
+    #box1 {
+        position: relative;
+        top: 4%;
+        left: 13%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+    
+    #box2 {
+        position: relative;
+        top: 6%;
+        left: 13%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+    
+    #box3 {
+        position: relative;
+        top: 8%;
+        left: 13%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+    
+    #box4 {
+        position: relative;
+        top: 10%;
+        left: 13%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+    
+    #box5 {
+        position: relative;
+        top: 13%;
+        left: 13%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+    
+    #box6 {
+        position: relative;
+        top: 15%;
+        left: 13%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+    
+    #box7 {
+        position: relative;
+        top: 18%;
+        left: 13%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+    
+    #box8 {
+        position: relative;
+        top: 20%;
+        left: 13%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+    /* SECTION 5 CONTAINING PARTICIPATION AND BENEFITS */
+    #info2 {
+        background-color: rgba(77, 110, 46, 0.253);
+        position: relative;
+        bottom: 345px;
+        width: 65%;
+        height: 1400px;
+        display: block;
+    }
+
+    .participationBenefits {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+        position: relative;
+        top: 50px;
+        left: 12%;
+        width: 75%;
+    }
+
+    .pbParagraph {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 5px;
+        top: 50px;
+        left: 12%;
+        width: 75%;
+        line-height: 1.5;
+    }
+    /* SECTION 6 CONTAINING THE QUICK LINKS */
+    #infoLinks {
+        background-color: rgba(77, 110, 46, 0.322);
+        position: relative;
+        bottom: 1744px;
+        left: 65%;
+        width: 35%;
+        height: 1400px;
+        display: block;
+    }
+
+    .info-link {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        right: 45px;
+        font-size: 10px;
+        text-decoration: none;
+        color: rgba(10, 2, 2, 0.554);
+    }
+
+    .info-link:hover {
+        color: rgba(197, 147, 55, 0.726)
+    }
+
+    #anotherLink1 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+        
+    }
+    #anotherLink2 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink3 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink4 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink5 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    /* SECTION 6 REQUIRMENTS */
+    #requirments {
+        background-color: rgba(107, 96, 82, 0.123);
+        position: relative;
+        bottom: 1760px;
+        width: 65%;
+        height: 1900px;
+        display: block; 
+        }
+        #require {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            position: relative;
+            top: 50px;
+            left: 12%;
+            width: 75%;
+        }
+        #finalParagraph {
+            font-family: 'Courier New', Courier, monospace;
+            position: relative;
+            font-size: 10px;
+            top: 30px;
+            left: 12%;
+            width: 75%;
+            line-height: 2;
+        }
+        /* SECTION 7 Blank */
+        #blankSpace {
+            background-color: rgba(54, 68, 41, 0.322);
+            position: relative;
+            bottom: 3660px;
+            left: 65%;
+            width: 35%;
+            height: 1900px;
+            display: block;
+        }
+}
+@media only screen and (max-width: 580px) {
     #logo {
         position: absolute;
         top: 100px;
@@ -2318,7 +3496,7 @@
         position: absolute;
         top: 255px;
         width: 64.5%;
-        height: 2090px;
+        height: 2150px;
         display: block; 
     }
     
@@ -2326,7 +3504,7 @@
         font-family: 'Courier New', Courier, monospace;
         position: relative;
         top: 0px;
-        font-size: 10px;
+        font-size: 9px;
         left: 12%;
         width: 75%;
         line-height: 2;
@@ -2334,19 +3512,17 @@
 
     #enlighten {
         font-family: 'Courier New', Courier, monospace;
-        font-size: 30px;
+        font-size: 10px;
         position: relative;
         top: 0px;
         left: 12%;
         width: 75%;
     }
 
-
-
     #para2 {
         font-family: 'Courier New', Courier, monospace;
         position: relative;
-        font-size: 10px;
+        font-size: 9px;
         top: 0px;
         left: 12%;
         width: 75%;
@@ -2355,7 +3531,7 @@
 
     #about {
         font-family: 'Courier New', Courier, monospace;
-        font-size: 30px;
+        font-size: 10px;
         position: relative;
         top: 0px;
         left: 12%;
@@ -2365,118 +3541,257 @@
     #para3 {
         font-family: 'Courier New', Courier, monospace;
         position: relative;
-        font-size: 10px;
+        font-size: 9px;
         top: 0px;
         left: 12%;
         width: 75%;
         line-height: 2;
     }
 
-    
+    #othersWork {
+        background-color: rgba(185, 207, 143, 0.431);
+        position: relative;
+        bottom: 320px;
+        left: 65%;
+        width: 35%;
+        height: 2150px;
+        display: block; 
     }
-@media only screen and (max-width: 530px) {
-    #logo {
-        position: absolute;
-        top: 100px;
-        left: 6%;
-        height: 55px;
-        width: 55px;
-    }
-    
-    #mainTitle {
+        /* SECTION 4 CONTSAINING THE PROJECT LINKS AND CREATORS */
+    .projectTitle1 {
         font-family: 'Courier New', Courier, monospace;
-        font-style: normal;
-        font-weight: 400;
+        margin: 0px;
+        position: relative;
+        right: 5px;
         font-size: 20px;
-        position: absolute;
-        color: rgba(255, 255, 255, 0.931);
-        top: 90px;
-        left: 20%;
-    }
-    
-    #beauty {
-        position: absolute;
-        font-style: italic;
-        font-size: 10px;
-        color: rgba(211, 211, 211, 0.726);
-        top: 120px;
-        left: 20%;
+        text-decoration: none;
+        color: rgba(53, 197, 48, 0.5);
     }
 
-    #viewDesign {
+    .projectTitle1:hover {
+        color: rgba(190, 147, 66, 0.452);
+    }
+
+    .projectTitle2:hover {
+        color: rgba(190, 147, 66, 0.452);
+    }
+
+    .projectTitle2 {
+        font-family: 'Courier New', Courier, monospace;
         position: relative;
-        bottom: 400px;
-        left: 75%;
-        text-align: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 18px;
-        padding: 20px 0;
-        color: rgba(255, 255, 255, 0.733);
-        background-color: rgba(255, 255, 255, 0.15);
-        height: 20px;
-        width: 70px;
-    }   
-    
-    #info1 {
-        background-color: rgba(245, 251, 185, 0.205);
-        position: absolute;
-        top: 255px;
-        width: 64.5%;
-        height: 2250px;
+        right: 5px;
+        font-size: 15px;
+        text-decoration: none;
+        color: rgba(53, 197, 48, 0.5);
+    }
+
+    #box1 {
+        position: relative;
+        top: 6%;
+        left: 9%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box2 {
+        position: relative;
+        top: 8%;
+        left: 9%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box3 {
+        position: relative;
+        top: 12%;
+        left: 9%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box4 {
+        position: relative;
+        top: 16%;
+        left: 9%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box5 {
+        position: relative;
+        top: 20%;
+        left: 9%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box6 {
+        position: relative;
+        top: 24%;
+        left: 9%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box7 {
+        position: relative;
+        top: 28%;
+        left: 9%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box8 {
+        position: relative;
+        top: 32%;
+        left: 9%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+    /* SECTION 5 CONTAINING PARTICIPATION AND BENEFITS */
+    #info2 {
+        background-color: rgba(77, 110, 46, 0.253);
+        position: relative;
+        bottom: 340px;
+        width: 65%;
+        height: 1550px;
+        display: block;
+    }
+
+
+    .participationBenefits {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+        position: relative;
+        top: 50px;
+        left: 12%;
+        width: 75%;
+    }
+
+    .pbParagraph {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 5px;
+        top: 50px;
+        left: 12%;
+        width: 75%;
+        line-height: 1.5;
+    }
+    /* SECTION 6 CONTAINING THE QUICK LINKS */
+    #infoLinks {
+        background-color: rgba(77, 110, 46, 0.322);
+        position: relative;
+        bottom: 1894px;
+        left: 65%;
+        width: 35%;
+        height: 1550px;
+        display: block;
+    }
+
+    .info-link {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        right: 45px;
+        font-size: 10px;
+        text-decoration: none;
+        color: rgba(10, 2, 2, 0.554);
+    }
+
+    .info-link:hover {
+        color: rgba(197, 147, 55, 0.726)
+    }
+
+    #anotherLink1 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+        
+    }
+    #anotherLink2 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink3 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink4 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink5 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    /* SECTION 6 REQUIRMENTS */
+    #requirments {
+        background-color: rgba(107, 96, 82, 0.123);
+        position: relative;
+        bottom: 1910px;
+        width: 65%;
+        height: 2000px;
         display: block; 
-    }
-
-    #para1 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        top: 0px;
-        font-size: 10px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-
-    #enlighten {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 30px;
-        position: relative;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-    }
-
-
-
-    #para2 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        font-size: 10px;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-
-    #about {
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 30px;
-        position: relative;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-    }
-
-    #para3 {
-        font-family: 'Courier New', Courier, monospace;
-        position: relative;
-        font-size: 10px;
-        top: 0px;
-        left: 12%;
-        width: 75%;
-        line-height: 2;
-    }
-    
-    }
+        }
+        #require {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            position: relative;
+            top: 50px;
+            left: 12%;
+            width: 75%;
+        }
+        #finalParagraph {
+            font-family: 'Courier New', Courier, monospace;
+            position: relative;
+            font-size: 10px;
+            top: 30px;
+            left: 12%;
+            width: 75%;
+            line-height: 2;
+        }
+        /* SECTION 7 Blank */
+        #blankSpace {
+            background-color: rgba(54, 68, 41, 0.322);
+            position: relative;
+            bottom: 3910px;
+            left: 65%;
+            width: 35%;
+            height: 2000px;
+            display: block;
+        }
+}
 @media only screen and (max-width: 500px) {
     #logo {
         position: absolute;
@@ -2533,7 +3848,7 @@
         font-family: 'Courier New', Courier, monospace;
         position: relative;
         top: 0px;
-        font-size: 10px;
+        font-size: 9px;
         left: 12%;
         width: 75%;
         line-height: 2;
@@ -2551,7 +3866,7 @@
     #para2 {
         font-family: 'Courier New', Courier, monospace;
         position: relative;
-        font-size: 10px;
+        font-size: 9px;
         top: 0px;
         left: 12%;
         width: 75%;
@@ -2570,10 +3885,256 @@
     #para3 {
         font-family: 'Courier New', Courier, monospace;
         position: relative;
-        font-size: 10px;
+        font-size: 9px;
         top: 0px;
         left: 12%;
         width: 75%;
         line-height: 2;
-    }   
+    }
+    
+    #othersWork {
+        background-color: rgba(185, 207, 143, 0.431);
+        position: relative;
+        bottom: 320px;
+        left: 65%;
+        width: 35%;
+        height: 2280px;
+        display: block; 
+    }    
+    
+    /* SECTION 4 CONTSAINING THE PROJECT LINKS AND CREATORS */
+    .projectTitle1 {
+        font-family: 'Courier New', Courier, monospace;
+        margin: 0px;
+        position: relative;
+        right: 5px;
+        font-size: 20px;
+        text-decoration: none;
+        color: rgba(53, 197, 48, 0.5);
+    }
+
+    .projectTitle1:hover {
+        color: rgba(190, 147, 66, 0.452);
+    }
+
+    .projectTitle2:hover {
+        color: rgba(190, 147, 66, 0.452);
+    }
+
+    .projectTitle2 {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        right: 5px;
+        font-size: 15px;
+        text-decoration: none;
+        color: rgba(53, 197, 48, 0.5);
+    }
+
+    #box1 {
+        position: relative;
+        top: 6%;
+        left: 9%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box2 {
+        position: relative;
+        top: 8%;
+        left: 9%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box3 {
+        position: relative;
+        top: 12%;
+        left: 9%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box4 {
+        position: relative;
+        top: 16%;
+        left: 9%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box5 {
+        position: relative;
+        top: 20%;
+        left: 9%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box6 {
+        position: relative;
+        top: 24%;
+        left: 9%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box7 {
+        position: relative;
+        top: 28%;
+        left: 9%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    #box8 {
+        position: relative;
+        top: 32%;
+        left: 9%;
+        width: 80px;
+        border-bottom: 1px solid grey;
+        padding: 30px;
+    }
+
+    /* SECTION 5 CONTAINING PARTICIPATION AND BENEFITS */
+    #info2 {
+        background-color: rgba(77, 110, 46, 0.253);
+        position: relative;
+        bottom: 345px;
+        width: 65%;
+        height: 1550px;
+        display: block;
+    }
+
+
+    .participationBenefits {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+        position: relative;
+        top: 50px;
+        left: 12%;
+        width: 75%;
+    }
+
+    .pbParagraph {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 5px;
+        top: 50px;
+        left: 12%;
+        width: 75%;
+        line-height: 1.5;
+    }
+    /* SECTION 6 CONTAINING THE QUICK LINKS */
+    #infoLinks {
+        background-color: rgba(77, 110, 46, 0.322);
+        position: relative;
+        bottom: 1894px;
+        left: 65%;
+        width: 35%;
+        height: 1550px;
+        display: block;
+    }
+
+    .info-link {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        right: 45px;
+        font-size: 10px;
+        text-decoration: none;
+        color: rgba(10, 2, 2, 0.554);
+    }
+
+    .info-link:hover {
+        color: rgba(197, 147, 55, 0.726)
+    }
+
+    #anotherLink1 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+        
+    }
+    #anotherLink2 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink3 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink4 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    #anotherLink5 {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        width: 30px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        padding: 20px;
+    }
+    /* SECTION 6 REQUIRMENTS */
+    #requirments {
+        background-color: rgba(107, 96, 82, 0.123);
+        position: relative;
+        bottom: 1910px;
+        width: 65%;
+        height: 2250px;
+        display: block; 
+        }
+        #require {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            position: relative;
+            top: 50px;
+            left: 12%;
+            width: 75%;
+        }
+        #finalParagraph {
+            font-family: 'Courier New', Courier, monospace;
+            position: relative;
+            font-size: 10px;
+            top: 30px;
+            left: 12%;
+            width: 75%;
+            line-height: 2;
+        }
+        /* SECTION 7 Blank */
+        #blankSpace {
+            background-color: rgba(54, 68, 41, 0.322);
+            position: relative;
+            bottom: 4160px;
+            left: 65%;
+            width: 35%;
+            height: 2250px;
+            display: block;
+        }
 }

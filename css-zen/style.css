@@ -334,11 +334,33 @@ display: block;
 /* SECTION 8 FINAL IMG */
 #finalIMG {
     position: relative;
+    bottom: 2600px;
     height: 300px;
     width: 100%;
 }
-
+.styleLink {
+    color: rgb(197, 162, 162);
+    font-size: 30px;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 76px;
+    margin-bottom: 0px;
+    margin-left: 54px;
+    margin-right: 54px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 76px;
+    position: relative;
+    bottom: 2850px;
+    left: 28%;
+}
+.styleLink:hover {
+    color: indianred;
+}
 @media only screen and (max-width: 1445px) {
+
     #logo {
         position: absolute;
         top: 70px;
@@ -676,7 +698,34 @@ display: block;
         height: 1200px;
         display: block;
     }
-
+    /* SECTION 8 FINAL IMG */
+    #finalIMG {
+        position: relative;
+        bottom: 2425px;
+        height: 300px;
+        width: 100%;
+    }
+    .styleLink {
+        color: rgb(197, 162, 162);
+        font-size: 30px;
+        box-sizing: border-box;
+        display: inline-block;
+        height: 76px;
+        margin-bottom: 0px;
+        margin-left: 54px;
+        margin-right: 54px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 76px;
+        position: relative;
+        bottom: 2660px;
+        left: 20%;
+    }
+    .styleLink:hover {
+        color: indianred;
+    }
 }
 @media only screen and (max-width: 1380px) {
     #logo {
@@ -1021,11 +1070,33 @@ display: block;
         height: 1300px;
         display: block;
     }
-    #closing {
+    /* SECTION 8 FINAL IMG */
+    #finalIMG {
         position: relative;
-        color: green;
+        bottom: 2820px;
+        height: 300px;
         width: 100%;
-        height: 400px;
+    }
+    .styleLink {
+        color: rgb(197, 162, 162);
+        font-size: 30px;
+        box-sizing: border-box;
+        display: inline-block;
+        height: 76px;
+        margin-bottom: 0px;
+        margin-left: 54px;
+        margin-right: 54px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 76px;
+        position: relative;
+        bottom: 3060px;
+        left: 15%;
+    }
+    .styleLink:hover {
+        color: indianred;
     }
 }
 @media only screen and (max-width: 1280px) {
@@ -1375,6 +1446,34 @@ display: block;
         height: 1550px;
         display: block;
     }  
+    /* SECTION 8 FINAL IMG */
+    #finalIMG {
+        position: relative;
+        bottom: 3060px;
+        height: 300px;
+        width: 100%;
+    }
+    .styleLink {
+        color: rgb(197, 162, 162);
+        font-size: 30px;
+        box-sizing: border-box;
+        display: inline-block;
+        height: 76px;
+        margin-bottom: 0px;
+        margin-left: 54px;
+        margin-right: 54px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 76px;
+        position: relative;
+        bottom: 3310px;
+        left: 15%;
+    }
+    .styleLink:hover {
+        color: indianred;
+    }
 }
 @media only screen and (max-width: 1180px) {
     #logo {
@@ -1721,6 +1820,34 @@ display: block;
         height: 1550px;
         display: block;
     }  
+    /* SECTION 8 FINAL IMG */
+    #finalIMG {
+        position: relative;
+        bottom: 3060px;
+        height: 300px;
+        width: 100%;
+    }
+    .styleLink {
+        color: rgb(197, 162, 162);
+        font-size: 25px;
+        box-sizing: border-box;
+        display: inline-block;
+        height: 76px;
+        margin-bottom: 0px;
+        margin-left: 54px;
+        margin-right: 54px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 76px;
+        position: relative;
+        bottom: 3310px;
+        left: 5%;
+    }
+    .styleLink:hover {
+        color: indianred;
+    }
 }
 @media only screen and (max-width: 1080px) {
     #logo {
@@ -2068,6 +2195,34 @@ display: block;
         height: 1750px;
         display: block;
     }  
+    /* SECTION 8 FINAL IMG */
+    #finalIMG {
+        position: relative;
+        bottom: 3360px;
+        height: 300px;
+        width: 100%;
+    }
+    .styleLink {
+        color: rgb(197, 162, 162);
+        font-size: 25px;
+        box-sizing: border-box;
+        display: inline-block;
+        height: 76px;
+        margin-bottom: 0px;
+        margin-left: 54px;
+        margin-right: 54px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 76px;
+        position: relative;
+        bottom: 3600px;
+        left: 5%;
+    }
+    .styleLink:hover {
+        color: indianred;
+    }
 }
 @media only screen and (max-width: 980px) { 
     #logo {
@@ -2413,7 +2568,35 @@ display: block;
         width: 35%;
         height: 1850px;
         display: block;
-    }  
+    } 
+    /* SECTION 8 FINAL IMG */
+    #finalIMG {
+        position: relative;
+        bottom: 3600px;
+        height: 300px;
+        width: 100%;
+    }
+    .styleLink {
+        color: rgb(197, 162, 162);
+        font-size: 25px;
+        box-sizing: border-box;
+        display: inline-block;
+        height: 76px;
+        margin-bottom: 0px;
+        margin-left: 54px;
+        margin-right: 54px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 76px;
+        position: relative;
+        bottom: 3850px;
+        left: 5%;
+    }
+    .styleLink:hover {
+        color: indianred;
+    }
 }
 @media only screen and (max-width: 880px) {
     #logo {
@@ -2759,6 +2942,34 @@ display: block;
         height: 1400px;
         display: block;
     }
+    /* SECTION 8 FINAL IMG */
+    #finalIMG {
+        position: relative;
+        bottom: 3150px;
+        height: 300px;
+        width: 100%;
+    }
+    .styleLink {
+        color: rgb(197, 162, 162);
+        font-size: 18px;
+        box-sizing: border-box;
+        display: inline-block;
+        height: 76px;
+        margin-bottom: 0px;
+        margin-left: 54px;
+        margin-right: 54px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 76px;
+        position: relative;
+        bottom: 3400px;
+        left: 5%;
+    }
+    .styleLink:hover {
+        color: indianred;
+    }
 }
 @media only screen and (max-width: 780px) {
     #logo {
@@ -3074,34 +3285,62 @@ display: block;
         width: 65%;
         height: 1900px;
         display: block; 
-        }
-        #require {
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 20px;
-            position: relative;
-            top: 50px;
-            left: 12%;
-            width: 75%;
-        }
-        #finalParagraph {
-            font-family: 'Courier New', Courier, monospace;
-            position: relative;
-            font-size: 10px;
-            top: 30px;
-            left: 12%;
-            width: 75%;
-            line-height: 2;
-        }
-        /* SECTION 7 Blank */
-        #blankSpace {
-            background-color: rgba(54, 68, 41, 0.322);
-            position: relative;
-            bottom: 3680px;
-            left: 65%;
-            width: 35%;
-            height: 1900px;
-            display: block;
-        }
+    }
+    #require {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        position: relative;
+        top: 50px;
+        left: 12%;
+        width: 75%;
+    }
+    #finalParagraph {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 30px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+    /* SECTION 7 Blank */
+    #blankSpace {
+        background-color: rgba(54, 68, 41, 0.322);
+        position: relative;
+        bottom: 3680px;
+        left: 65%;
+        width: 35%;
+        height: 1900px;
+        display: block;
+    }
+    /* SECTION 8 FINAL IMG */
+    #finalIMG {
+        position: relative;
+        bottom: 3680px;
+        height: 300px;
+        width: 100%;
+    }
+    .styleLink {
+        color: rgb(197, 162, 162);
+        font-size: 14px;
+        box-sizing: border-box;
+        display: inline-block;
+        height: 76px;
+        margin-bottom: 0px;
+        margin-left: 54px;
+        margin-right: 54px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 76px;
+        position: relative;
+        bottom: 3920px;
+        left: 5%;
+    }
+    .styleLink:hover {
+        color: indianred;
+    }
 }
 @media only screen and (max-width: 680px) {
     #logo {
@@ -3419,34 +3658,62 @@ display: block;
         width: 65%;
         height: 1900px;
         display: block; 
-        }
-        #require {
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 20px;
-            position: relative;
-            top: 50px;
-            left: 12%;
-            width: 75%;
-        }
-        #finalParagraph {
-            font-family: 'Courier New', Courier, monospace;
-            position: relative;
-            font-size: 10px;
-            top: 30px;
-            left: 12%;
-            width: 75%;
-            line-height: 2;
-        }
-        /* SECTION 7 Blank */
-        #blankSpace {
-            background-color: rgba(54, 68, 41, 0.322);
-            position: relative;
-            bottom: 3660px;
-            left: 65%;
-            width: 35%;
-            height: 1900px;
-            display: block;
-        }
+    }
+    #require {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        position: relative;
+        top: 50px;
+        left: 12%;
+        width: 75%;
+    }
+    #finalParagraph {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 30px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+    /* SECTION 7 Blank */
+    #blankSpace {
+        background-color: rgba(54, 68, 41, 0.322);
+        position: relative;
+        bottom: 3660px;
+        left: 65%;
+        width: 35%;
+        height: 1900px;
+        display: block;
+    }
+    /* SECTION 8 FINAL IMG */
+    #finalIMG {
+        position: relative;
+        bottom: 3660px;
+        height: 300px;
+        width: 100%;
+    }
+    .styleLink {
+        color: rgb(197, 162, 162);
+        font-size: 14px;
+        box-sizing: border-box;
+        display: inline-block;
+        height: 76px;
+        margin-bottom: 0px;
+        margin-left: 54px;
+        margin-right: 54px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 76px;
+        position: relative;
+        bottom: 3950px;
+        left: 10%;
+    }
+    .styleLink:hover {
+        color: indianred;
+    }
 }
 @media only screen and (max-width: 580px) {
     #logo {
@@ -3761,36 +4028,64 @@ display: block;
         position: relative;
         bottom: 1910px;
         width: 65%;
-        height: 2000px;
+        height: 2100px;
         display: block; 
-        }
-        #require {
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 20px;
-            position: relative;
-            top: 50px;
-            left: 12%;
-            width: 75%;
-        }
-        #finalParagraph {
-            font-family: 'Courier New', Courier, monospace;
-            position: relative;
-            font-size: 10px;
-            top: 30px;
-            left: 12%;
-            width: 75%;
-            line-height: 2;
-        }
-        /* SECTION 7 Blank */
-        #blankSpace {
-            background-color: rgba(54, 68, 41, 0.322);
-            position: relative;
-            bottom: 3910px;
-            left: 65%;
-            width: 35%;
-            height: 2000px;
-            display: block;
-        }
+    }
+    #require {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        position: relative;
+        top: 50px;
+        left: 12%;
+        width: 75%;
+    }
+    #finalParagraph {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 30px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+    /* SECTION 7 Blank */
+    #blankSpace {
+        background-color: rgba(54, 68, 41, 0.322);
+        position: relative;
+        bottom: 4010px;
+        left: 65%;
+        width: 35%;
+        height: 2100px;
+        display: block;
+    }
+    /* SECTION 8 FINAL IMG */
+    #finalIMG {
+        position: relative;
+        bottom: 4010px;
+        height: 300px;
+        width: 100%;
+    }
+    .styleLink {
+        color: rgb(197, 162, 162);
+        font-size: 10px;
+        box-sizing: border-box;
+        display: inline-block;
+        height: 76px;
+        margin-bottom: 0px;
+        margin-left: 54px;
+        margin-right: 54px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 76px;
+        position: relative;
+        bottom: 4300px;
+        left: 10%;
+    }
+    .styleLink:hover {
+        color: indianred;
+    }
 }
 @media only screen and (max-width: 500px) {
     #logo {
@@ -4109,32 +4404,60 @@ display: block;
         width: 65%;
         height: 2250px;
         display: block; 
-        }
-        #require {
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 20px;
-            position: relative;
-            top: 50px;
-            left: 12%;
-            width: 75%;
-        }
-        #finalParagraph {
-            font-family: 'Courier New', Courier, monospace;
-            position: relative;
-            font-size: 10px;
-            top: 30px;
-            left: 12%;
-            width: 75%;
-            line-height: 2;
-        }
-        /* SECTION 7 Blank */
-        #blankSpace {
-            background-color: rgba(54, 68, 41, 0.322);
-            position: relative;
-            bottom: 4160px;
-            left: 65%;
-            width: 35%;
-            height: 2250px;
-            display: block;
-        }
+    }
+    #require {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        position: relative;
+        top: 50px;
+        left: 12%;
+        width: 75%;
+    }
+    #finalParagraph {
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        font-size: 10px;
+        top: 30px;
+        left: 12%;
+        width: 75%;
+        line-height: 2;
+    }
+    /* SECTION 7 Blank */
+    #blankSpace {
+        background-color: rgba(54, 68, 41, 0.322);
+        position: relative;
+        bottom: 4160px;
+        left: 65%;
+        width: 35%;
+        height: 2250px;
+        display: block;
+    }
+    /* SECTION 8 FINAL IMG */
+    #finalIMG {
+        position: relative;
+        bottom: 4200px;
+        height: 300px;
+        width: 100%;
+    }
+    .styleLink {
+        color: rgb(197, 162, 162);
+        font-size: 10px;
+        box-sizing: border-box;
+        display: inline-block;
+        height: 76px;
+        margin-bottom: 0px;
+        margin-left: 54px;
+        margin-right: 54px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 76px;
+        position: relative;
+        bottom: 4500px;
+        left: 10%;
+    }
+    .styleLink:hover {
+        color: indianred;
+    }
 }
